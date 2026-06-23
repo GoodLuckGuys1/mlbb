@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLBB Combo Analyzer — связки в драфте</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow--left"></div>
+  <div class="bg-glow bg-glow--right"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__icon">⚔</span>
+        <div>
+          <div class="logo__title">MLBB Combo Analyzer</div>
+          <div class="logo__sub">Анализ пиков, связок и прогноз победителя</div>
+        </div>
+      </div>
+      <div class="header__actions">
+        <div class="header__meta">
+          <div class="header__status" id="statusBadge">Загрузка...</div>
+          <div class="header__updated" id="dataUpdated"></div>
+          <div class="refresh-progress hidden" id="refreshProgress">
+            <div class="refresh-progress__bar" aria-hidden="true">
+              <div class="refresh-progress__fill" id="refreshProgressFill"></div>
+            </div>
+            <div class="refresh-progress__meta" id="refreshProgressMeta"></div>
+          </div>
+        </div>
+        <div class="header__refresh-btns">
+          <button type="button" class="btn btn--ghost btn--small" id="refreshDataBtn" title="Пики, баны, роли (~10–20 мин)">Обновить данные</button>
+          <button type="button" class="btn btn--ghost btn--small" id="refreshDataFullBtn" title="Все герои, синергии, контрпики (~40–60 мин)">Полное обновление</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+    <nav class="tabs" id="mainTabs">
+      <button type="button" class="tabs__btn active" data-tab="draft">Драфт</button>
+      <button type="button" class="tabs__btn" data-tab="counters">Контрпики</button>
+      <button type="button" class="tabs__btn" data-tab="meta">Топы пиков/банов</button>
+      <button type="button" class="tabs__btn" data-tab="tiers">Тир-листы</button>
+      <button type="button" class="tabs__btn" data-tab="ingame">В игре</button>
+    </nav>
+
+    <div id="tabDraft" class="tab-panel">
+    <section class="panel draft-panel">
+      <div class="panel__head">
+        <h2>Драфт</h2>
+        <p>Перетаскивайте героев в слоты или кликайте. Прогноз обновляется автоматически.</p>
+      </div>
+
+      <div class="draft-grid">
+        <div class="team team--enemy">
+          <div class="team__label">
+            <span class="dot dot--red"></span>
+            Враги <span id="enemyCount">0</span>/5
+          </div>
+          <div class="slots" id="enemySlots"></div>
+        </div>
+
+        <div class="team team--ally">
+          <div class="team__label">
+            <span class="dot dot--blue"></span>
+            Союзники <span id="allyCount">0</span>/5
+          </div>
+          <div class="slots" id="allySlots"></div>
+        </div>
+      </div>
+
+      <div class="draft-bans">
+        <div class="team team--ban team--ban-enemy">
+          <div class="team__label"><span class="dot dot--red"></span> Баны врагов <span id="enemyBanCount">0</span>/<span class="ban-size-label">5</span></div>
+          <div class="slots slots--ban" id="enemyBanSlots"></div>
+        </div>
+        <div class="team team--ban team--ban-ally">
+          <div class="team__label"><span class="dot dot--blue"></span> Наши баны <span id="allyBanCount">0</span>/<span class="ban-size-label">5</span></div>
+          <div class="slots slots--ban" id="allyBanSlots"></div>
+        </div>
+      </div>
+
+      <div class="draft-save">
+        <input class="search draft-save__name" id="compName" type="text" placeholder="Название состава..." maxlength="40">
+        <button type="button" class="btn btn--ghost btn--small" id="saveCompBtn">Сохранить</button>
+        <select class="control draft-save__select" id="savedCompSelect">
+          <option value="">Загрузить состав...</option>
+        </select>
+        <button type="button" class="btn btn--ghost btn--small" id="deleteCompBtn">Удалить</button>
+      </div>
+
+      <div class="controls">
+        <label class="control">
+          Режим
+          <select id="modeSelect">
+            <option value="all">Всё: даблы, триплы, пятёрки</option>
+            <option value="partner">Подбор напарника</option>
+            <option value="duo">Только даблы</option>
+            <option value="trio">Только триплы</option>
+            <option value="team">Только пятёрки</option>
+            <option value="complete">Добрать до 5</option>
+          </select>
+        </label>
+        <button class="btn btn--ghost" id="clearBtn" type="button">Сбросить</button>
+        <button class="btn btn--primary" id="analyzeBtn" type="button">Анализировать</button>
+      </div>
+    </section>
+
+    <section class="panel hero-panel">
+      <div class="panel__head">
+        <h2>Герои</h2>
+        <input class="search" id="heroSearch" type="search" placeholder="Поиск героя (RU / EN)..." autocomplete="off">
+      </div>
+      <div class="filter-group">
+        <div class="filter-group__label">Роли</div>
+        <div class="role-filters" id="roleFilters"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-group__label">Линии</div>
+        <div class="lane-filters" id="laneFilters"></div>
+      </div>
+      <div class="hero-grid" id="heroGrid"></div>
+    </section>
+
+    <section class="results">
+      <div class="results__empty" id="resultsEmpty">
+        <div class="results__empty-icon">🎯</div>
+        <h3>Добавьте врагов</h3>
+        <p>Выберите 1–5 вражеских героев, чтобы увидеть лучшие связки против их состава.</p>
+      </div>
+
+      <div class="results__content hidden" id="resultsContent">
+        <div class="prediction hidden" id="predictionBlock"></div>
+
+        <div class="result-block hidden" id="banAdviceBlock">
+          <div class="result-block__head">
+            <h3>Кого банить</h3>
+            <span class="badge badge--ban">баны</span>
+          </div>
+          <ul class="advice-tips hidden" id="banAdviceTips"></ul>
+          <div class="ban-list" id="banAdviceList"></div>
+        </div>
+
+        <div class="result-block hidden" id="pickVsBlock">
+          <div class="result-block__head">
+            <h3>Что взять, если враг...</h3>
+            <span class="badge badge--advice">ответный пик</span>
+          </div>
+          <div class="pick-vs-toolbar">
+            <select class="control" id="pickVsSelect">
+              <option value="">Выберите вражеского героя</option>
+            </select>
+          </div>
+          <ul class="advice-tips hidden" id="pickVsTips"></ul>
+          <div class="advice-list" id="pickVsList"></div>
+          <div class="counter-list hidden" id="pickVsCounters"></div>
+        </div>
+
+        <div class="result-block hidden" id="adviceBlock">
+          <div class="result-block__head">
+            <h3>Кого взять</h3>
+            <span class="badge badge--advice">советы по пику</span>
+          </div>
+          <ul class="advice-tips hidden" id="adviceTips"></ul>
+          <div class="advice-list" id="adviceList"></div>
+        </div>
+
+        <div class="result-block hidden" id="partnerBlock">
+          <div class="result-block__head">
+            <h3>Лучший напарник в дабле</h3>
+            <span class="badge badge--duo" id="partnerAnchorBadge">выберите героя</span>
+          </div>
+          <div class="anchor-picker hidden" id="anchorPicker"></div>
+          <div class="combo-list" id="partnerList"></div>
+        </div>
+
+        <div class="result-block" id="completeBlock">
+          <div class="result-block__head">
+            <h3>Добрать связку</h3>
+            <span class="badge">под ваш пик</span>
+          </div>
+          <div class="combo-list" id="completeList"></div>
+        </div>
+
+        <div class="result-columns">
+          <div class="result-block">
+            <div class="result-block__head">
+              <h3>Лучшие даблы</h3>
+              <span class="badge badge--duo">2 героя</span>
+            </div>
+            <div class="combo-list" id="duoList"></div>
+          </div>
+
+          <div class="result-block">
+            <div class="result-block__head">
+              <h3>Лучшие триплы</h3>
+              <span class="badge badge--trio">3 героя</span>
+            </div>
+            <div class="combo-list" id="trioList"></div>
+          </div>
+        </div>
+
+        <div class="result-block" id="teamBlock">
+          <div class="result-block__head">
+            <h3>Лучшие пятёрки</h3>
+            <span class="badge badge--team">5 героев</span>
+          </div>
+          <div class="combo-list" id="teamList"></div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div id="tabMeta" class="tab-panel hidden">
+      <section class="panel">
+        <div class="panel__head">
+          <h2>Топы пиков и банов</h2>
+          <p>Актуальная мета по статистике ранкед-матчей (Mythic+).</p>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Фильтр по роли</div>
+          <div class="role-filters" id="metaRoleFilters"></div>
+        </div>
+      </section>
+
+      <div class="meta-columns">
+        <section class="result-block">
+          <div class="result-block__head">
+            <h3>Топ пиков</h3>
+            <span class="badge badge--pick">pick rate</span>
+          </div>
+          <div class="meta-list" id="metaPicksList"></div>
+        </section>
+
+        <section class="result-block">
+          <div class="result-block__head">
+            <h3>Топ банов</h3>
+            <span class="badge badge--ban">ban rate</span>
+          </div>
+          <div class="meta-list" id="metaBansList"></div>
+        </section>
+
+        <section class="result-block">
+          <div class="result-block__head">
+            <h3>Топ винрейт</h3>
+            <span class="badge badge--win">win rate</span>
+          </div>
+          <div class="meta-list" id="metaWinList"></div>
+        </section>
+      </div>
+    </div>
+
+    <div id="tabTiers" class="tab-panel hidden">
+      <section class="panel">
+        <div class="panel__head">
+          <h2>Тир-лист героев</h2>
+          <p>Ранжирование по мете с аналитикой: WR, пики, баны, синергии, контрпики и сила по фазам игры.</p>
+        </div>
+        <div class="tier-summary hidden" id="tierSummary"></div>
+        <div class="tier-highlights hidden" id="tierHighlights"></div>
+        <div class="tier-detail hidden" id="tierDetail"></div>
+        <div class="filter-group">
+          <div class="filter-group__label">Метрика</div>
+          <div class="role-filters" id="tierModeFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Роль</div>
+          <div class="role-filters" id="tierRoleFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Линия</div>
+          <div class="role-filters" id="tierLaneFilters"></div>
+        </div>
+      </section>
+
+      <div class="tier-board" id="tierBoard"></div>
+    </div>
+
+    <div id="tabIngame" class="tab-panel hidden">
+      <section class="panel">
+        <div class="panel__head">
+          <h2>В игре</h2>
+          <p>Советы по текущей ситуации — состав берётся из вкладки «Драфт».</p>
+        </div>
+        <div class="ingame-draft-preview" id="ingameDraftPreview"></div>
+        <div class="filter-group">
+          <div class="filter-group__label">Фаза игры</div>
+          <div class="role-filters" id="ingamePhaseFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Золото</div>
+          <div class="role-filters" id="ingameGoldFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Ситуация</div>
+          <div class="role-filters" id="ingameSituationFilters"></div>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="result-block">
+          <div class="result-block__head">
+            <h3>Советы</h3>
+            <span class="badge badge--advice">live</span>
+          </div>
+          <div class="ingame-phases hidden" id="ingamePhases"></div>
+          <ul class="ingame-tips" id="ingameTips">
+            <li>Заполните драфт и выберите фазу игры</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div id="tabCounters" class="tab-panel hidden">
+      <section class="panel">
+        <div class="panel__head">
+          <h2>Контрпики по героям</h2>
+          <p>Выберите вражеского героя — покажем лучших контрпиков по статистике матчапов.</p>
+        </div>
+
+        <div class="counter-target" id="counterTarget">
+          <div class="counter-target__empty">
+            <span>🎯</span>
+            <p>Кликните на героя ниже или выберите из драфта</p>
+          </div>
+        </div>
+
+        <div class="counter-quick hidden" id="counterQuick">
+          <span class="counter-quick__label">Из драфта:</span>
+          <div class="counter-quick__list" id="counterQuickList"></div>
+        </div>
+      </section>
+
+      <section class="panel hero-panel">
+        <div class="panel__head">
+          <h2>Выберите цель</h2>
+          <input class="search" id="counterSearch" type="search" placeholder="Поиск героя (RU / EN)..." autocomplete="off">
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Роли</div>
+          <div class="role-filters" id="counterRoleFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Линии</div>
+          <div class="lane-filters" id="counterLaneFilters"></div>
+        </div>
+        <div class="hero-grid" id="counterHeroGrid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__head">
+          <h2>Лучшие контрпики</h2>
+          <p>Укажите свою роль и линию — покажем подходящие контрпики.</p>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Моя роль в матче</div>
+          <div class="my-role-filters" id="counterMyRoleFilters"></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Моя линия</div>
+          <div class="my-role-filters" id="counterMyLaneFilters"></div>
+        </div>
+        <div class="counter-results__empty" id="counterResultsEmpty">
+          <p>Выберите героя, против которого нужен контрпик</p>
+        </div>
+        <div class="result-block hidden" id="counterAdviceBlock" style="margin-bottom:16px">
+          <div class="result-block__head">
+            <h3>Кого взять</h3>
+            <span class="badge badge--advice">совет</span>
+          </div>
+          <ul class="advice-tips hidden" id="counterAdviceTips"></ul>
+          <div class="advice-list" id="counterAdviceList"></div>
+        </div>
+        <div class="counter-list hidden" id="counterList"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Данные: <a href="https://mlbb.rone.dev" target="_blank" rel="noopener">mlbb.rone.dev</a>.
+      Неофициальный инструмент, не связан с Moonton.
+    </div>
+  </footer>
+
+  <div class="picker-overlay hidden" id="pickerOverlay">
+    <div class="picker">
+      <div class="picker__head">
+        <h3 id="pickerTitle">Куда добавить героя?</h3>
+        <button class="picker__close" id="pickerClose" type="button">×</button>
+      </div>
+      <div class="picker__hero" id="pickerHero"></div>
+      <div class="picker__actions">
+        <button class="btn btn--danger" id="pickEnemy" type="button">Враг</button>
+        <button class="btn btn--primary" id="pickAlly" type="button">Союзник</button>
+        <button class="btn btn--ghost" id="pickEnemyBan" type="button">Бан врага</button>
+        <button class="btn btn--ghost" id="pickAllyBan" type="button">Наш бан</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

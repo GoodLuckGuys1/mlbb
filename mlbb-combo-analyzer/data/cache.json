@@ -1,0 +1,5065 @@
+{
+  "version": 1,
+  "heroes": {
+    "132": {
+      "id": 132,
+      "name": "Marcel",
+      "slug": "marcel",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_dd980a8816698f1503cdb76201d17dd0.png",
+      "role": "Support",
+      "assist": [
+        60,
+        121
+      ],
+      "strong": [
+        18,
+        38
+      ],
+      "weak": [
+        84,
+        83
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.002479,
+      "ban_rate": 1.053191,
+      "win_rate": 0.554581,
+      "name_ru": "Марсель"
+    },
+    "131": {
+      "id": 131,
+      "name": "Sora",
+      "slug": "sora",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_4749a1f7fe99cbedfc5ef23fc1287d6c.png",
+      "role": "Fighter",
+      "assist": [
+        41,
+        6,
+        19
+      ],
+      "strong": [
+        18,
+        1,
+        60
+      ],
+      "weak": [
+        57,
+        17,
+        120
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.007967,
+      "ban_rate": 0.366156,
+      "win_rate": 0.482762,
+      "name_ru": "Сора"
+    },
+    "130": {
+      "id": 130,
+      "name": "Obsidia",
+      "slug": "obsidia",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_92bcc9ad2c4c8165a888d34f086a4d28.png",
+      "role": "Marksman",
+      "assist": [
+        55,
+        34
+      ],
+      "strong": [
+        21,
+        22,
+        47
+      ],
+      "weak": [
+        12,
+        18
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.007718,
+      "ban_rate": 0.02067,
+      "win_rate": 0.497106,
+      "name_ru": "Обсидия"
+    },
+    "129": {
+      "id": 129,
+      "name": "Zetian",
+      "slug": "zetian",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_90/100_22dc8b16ea98a735027c3141b74ef841.png",
+      "role": "Mage",
+      "assist": [
+        112,
+        14
+      ],
+      "strong": [
+        2,
+        16
+      ],
+      "weak": [
+        110
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.019897,
+      "ban_rate": 0.237965,
+      "win_rate": 0.514162,
+      "name_ru": "Цзэтянь"
+    },
+    "128": {
+      "id": 128,
+      "name": "Kalea",
+      "slug": "kalea",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_64/100_9c5f2904026ba88b7aba8c9b2722f4ad.png",
+      "role": "Support",
+      "assist": [
+        15,
+        42,
+        13
+      ],
+      "strong": [
+        18,
+        61
+      ],
+      "weak": [
+        48,
+        19
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.003157,
+      "ban_rate": 0.013301,
+      "win_rate": 0.460554,
+      "name_ru": "Калеа"
+    },
+    "127": {
+      "id": 127,
+      "name": "Lukas",
+      "slug": "lukas",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_454c13b2de7b7d1a20fbf553c620510d.png",
+      "role": "Fighter",
+      "assist": [
+        93,
+        6,
+        41
+      ],
+      "strong": [
+        60,
+        121
+      ],
+      "weak": [
+        17,
+        57,
+        116
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.003528,
+      "ban_rate": 0.00727,
+      "win_rate": 0.504071,
+      "name_ru": "Лукас"
+    },
+    "126": {
+      "id": 126,
+      "name": "Suyou",
+      "slug": "suyou",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_422ffc7849e8bb01629d2423054ed410.png",
+      "role": "Assassin",
+      "assist": [
+        14,
+        6
+      ],
+      "strong": [
+        121,
+        115
+      ],
+      "weak": [
+        114,
+        77
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.019124,
+      "ban_rate": 0.358106,
+      "win_rate": 0.512621,
+      "name_ru": "Су Ё"
+    },
+    "125": {
+      "id": 125,
+      "name": "Zhuxin",
+      "slug": "zhuxin",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_13cfeec4bec7a27a09677e519f1ef9d2.png",
+      "role": "Mage",
+      "assist": [
+        123,
+        71,
+        70
+      ],
+      "strong": [
+        33,
+        94
+      ],
+      "weak": [
+        3,
+        17
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.005859,
+      "ban_rate": 0.277199,
+      "win_rate": 0.511949,
+      "name_ru": "Чжусинь"
+    },
+    "124": {
+      "id": 124,
+      "name": "Chip",
+      "slug": "chip",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_85e15c66733cab7d8d73f7f725f31f1e.png",
+      "role": "Support",
+      "assist": [
+        28,
+        60,
+        75
+      ],
+      "strong": [
+        38,
+        18,
+        121
+      ],
+      "weak": [
+        99,
+        6
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.000621,
+      "ban_rate": 0.025902,
+      "win_rate": 0.488595,
+      "name_ru": "Чип"
+    },
+    "123": {
+      "id": 123,
+      "name": "Cici",
+      "slug": "cici",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4f970eb4b44b8c9fff2c511d8e856ff4.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        112
+      ],
+      "strong": [
+        117,
+        19
+      ],
+      "weak": [
+        3,
+        62
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.003269,
+      "ban_rate": 0.014494,
+      "win_rate": 0.479089,
+      "name_ru": "Чичи"
+    },
+    "122": {
+      "id": 122,
+      "name": "Nolan",
+      "slug": "nolan",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0495066df0d828c149e7fe89aa63078b.png",
+      "role": "Assassin",
+      "assist": [
+        6,
+        41
+      ],
+      "strong": [
+        60,
+        15
+      ],
+      "weak": [
+        72,
+        117
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.002489,
+      "ban_rate": 0.003876,
+      "win_rate": 0.473706,
+      "name_ru": "Нолан"
+    },
+    "121": {
+      "id": 121,
+      "name": "Ixia",
+      "slug": "ixia",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c5f758bd1141327d36f2c77928268ab7.png",
+      "role": "Marksman",
+      "assist": [
+        117,
+        11
+      ],
+      "strong": [
+        117,
+        11
+      ],
+      "weak": [
+        3,
+        109
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.008384,
+      "ban_rate": 0.017086,
+      "win_rate": 0.501448,
+      "name_ru": "Иксия"
+    },
+    "120": {
+      "id": 120,
+      "name": "Arlott",
+      "slug": "arlott",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_01450fec4397f8780ce0d11ab652c73d.png",
+      "role": "Fighter",
+      "assist": [
+        41,
+        93
+      ],
+      "strong": [
+        27,
+        16
+      ],
+      "weak": [
+        72,
+        117
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.004131,
+      "ban_rate": 0.005466,
+      "win_rate": 0.473905,
+      "name_ru": "Арлотт"
+    },
+    "119": {
+      "id": 119,
+      "name": "Novaria",
+      "slug": "novaria",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_12c811236741ae8e3fbdaa2d884b30a2.png",
+      "role": "Mage",
+      "assist": [
+        105,
+        18
+      ],
+      "strong": [
+        15,
+        46
+      ],
+      "weak": [
+        3,
+        21
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.00792,
+      "ban_rate": 0.013914,
+      "win_rate": 0.470843,
+      "name_ru": "Новария"
+    },
+    "118": {
+      "id": 118,
+      "name": "Joy",
+      "slug": "joy",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6b5570b0e557e36501b4228fcdfcf164.png",
+      "role": "Assassin",
+      "assist": [
+        55,
+        49
+      ],
+      "strong": [
+        115,
+        38
+      ],
+      "weak": [
+        74,
+        78
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.002246,
+      "ban_rate": 0.009862,
+      "win_rate": 0.482049,
+      "name_ru": "Джой"
+    },
+    "117": {
+      "id": 117,
+      "name": "Fredrinn",
+      "slug": "fredrinn",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f574825bd9192094f047a4abc6d5d05.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        112
+      ],
+      "strong": [
+        66,
+        15
+      ],
+      "weak": [
+        40,
+        53
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.007719,
+      "ban_rate": 0.061805,
+      "win_rate": 0.512194,
+      "name_ru": "Фредрин"
+    },
+    "116": {
+      "id": 116,
+      "name": "Julian",
+      "slug": "julian",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_44891c699fb1c00fc4a7fa59ea95b8b3.png",
+      "role": "Assassin",
+      "assist": [
+        55,
+        48
+      ],
+      "strong": [
+        91,
+        64
+      ],
+      "weak": [
+        118,
+        73
+      ],
+      "lane": "",
+      "pick_rate": 0.011007,
+      "ban_rate": 0.035393,
+      "win_rate": 0.49932,
+      "name_ru": "Джулиан"
+    },
+    "115": {
+      "id": 115,
+      "name": "Xavier",
+      "slug": "xavier",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_50a5b0dd98ed2378d9f618e5ef0d47b2.png",
+      "role": "Mage",
+      "assist": [
+        92,
+        93
+      ],
+      "strong": [
+        60,
+        76
+      ],
+      "weak": [
+        97,
+        21,
+        24
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.00501,
+      "ban_rate": 0.001743,
+      "win_rate": 0.479821,
+      "name_ru": "Ксавьер"
+    },
+    "114": {
+      "id": 114,
+      "name": "Melissa",
+      "slug": "melissa",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_8044c8e2e966533e8978b20f4ecb5cd9.png",
+      "role": "Marksman",
+      "assist": [
+        6,
+        19
+      ],
+      "strong": [
+        27,
+        16
+      ],
+      "weak": [
+        115,
+        5
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.006334,
+      "ban_rate": 0.011024,
+      "win_rate": 0.517314,
+      "name_ru": "Мелисса"
+    },
+    "113": {
+      "id": 113,
+      "name": "Yin",
+      "slug": "yin",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_95836476311e2026077d87eb2373a281.png",
+      "role": "Fighter",
+      "assist": [
+        102,
+        14
+      ],
+      "strong": [
+        18,
+        91
+      ],
+      "weak": [
+        117,
+        77
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.005326,
+      "ban_rate": 0.030018,
+      "win_rate": 0.481522,
+      "name_ru": "Инь"
+    },
+    "112": {
+      "id": 112,
+      "name": "Floryn",
+      "slug": "floryn",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5168f0a54304b2f20f976a1ffa96e1dc.png",
+      "role": "Support",
+      "assist": [
+        82,
+        72
+      ],
+      "strong": [
+        59,
+        20
+      ],
+      "weak": [
+        8,
+        3
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.011016,
+      "ban_rate": 0.350412,
+      "win_rate": 0.532375,
+      "name_ru": "Флорин"
+    },
+    "111": {
+      "id": 111,
+      "name": "Edith",
+      "slug": "edith",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_352f65059bc1180ae0fc066003d628e0.png",
+      "role": "Tank",
+      "assist": [
+        19,
+        93
+      ],
+      "strong": [
+        16,
+        108
+      ],
+      "weak": [
+        60,
+        89
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.002,
+      "ban_rate": 0.00097,
+      "win_rate": 0.511408,
+      "name_ru": "Эдит"
+    },
+    "110": {
+      "id": 110,
+      "name": "Valentina",
+      "slug": "valentina",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7923ebf470d0e963e9978cb21eb25780.png",
+      "role": "Mage",
+      "assist": [
+        92,
+        93
+      ],
+      "strong": [
+        60,
+        76
+      ],
+      "weak": [
+        21,
+        24,
+        69
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.001774,
+      "ban_rate": 0.003202,
+      "win_rate": 0.431479,
+      "name_ru": "Валентина"
+    },
+    "109": {
+      "id": 109,
+      "name": "Aamon",
+      "slug": "aamon",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c9e4d330229c88b1e78ef88ce9db4223.png",
+      "role": "Assassin",
+      "assist": [
+        14,
+        112
+      ],
+      "strong": [
+        115,
+        91
+      ],
+      "weak": [
+        2,
+        117
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.008033,
+      "ban_rate": 0.073061,
+      "win_rate": 0.511204,
+      "name_ru": "Эймон"
+    },
+    "108": {
+      "id": 108,
+      "name": "Aulus",
+      "slug": "aulus",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_4a632ceb1dfcb3aad58a6d02a46a1c9e.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        112
+      ],
+      "strong": [
+        60,
+        1,
+        23
+      ],
+      "weak": [
+        10,
+        114,
+        8
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.002242,
+      "ban_rate": 0.014637,
+      "win_rate": 0.508283,
+      "name_ru": "Аулус"
+    },
+    "107": {
+      "id": 107,
+      "name": "Natan",
+      "slug": "natan",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6736ef8c230d82576c3710e9fc248e11.png",
+      "role": "Marksman",
+      "assist": [
+        32,
+        28
+      ],
+      "strong": [
+        6,
+        41
+      ],
+      "weak": [
+        3,
+        15
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.00362,
+      "ban_rate": 0.002392,
+      "win_rate": 0.507473,
+      "name_ru": "Натан"
+    },
+    "106": {
+      "id": 106,
+      "name": "Phoveus",
+      "slug": "phoveus",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_06/100_6bfe8ca7e60623a5261eac20e2b39d34.png",
+      "role": "Fighter",
+      "assist": [
+        41,
+        19,
+        6
+      ],
+      "strong": [
+        89,
+        120,
+        26
+      ],
+      "weak": [
+        36,
+        57,
+        38
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.007439,
+      "ban_rate": 0.033136,
+      "win_rate": 0.511391,
+      "name_ru": "Фовиус"
+    },
+    "105": {
+      "id": 105,
+      "name": "Beatrix",
+      "slug": "beatrix",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c1acd7cbd828f0c5d291e48a0f7c018d.png",
+      "role": "Marksman",
+      "assist": [
+        78,
+        93
+      ],
+      "strong": [
+        49,
+        70
+      ],
+      "weak": [
+        15,
+        84
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.007636,
+      "ban_rate": 0.009008,
+      "win_rate": 0.502141,
+      "name_ru": "Беатрис"
+    },
+    "104": {
+      "id": 104,
+      "name": "Gloo",
+      "slug": "gloo",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_8b401d50920f2359060a9c7a3c833df1.png",
+      "role": "Tank",
+      "assist": [
+        15,
+        3
+      ],
+      "strong": [
+        91,
+        61
+      ],
+      "weak": [
+        40,
+        53
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.005699,
+      "ban_rate": 0.683782,
+      "win_rate": 0.552311,
+      "name_ru": "Глу"
+    },
+    "103": {
+      "id": 103,
+      "name": "Paquito",
+      "slug": "paquito",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1986ebcc24fc3eb28f59f079c15be612.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        23,
+        18
+      ],
+      "weak": [
+        10,
+        62
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.018153,
+      "ban_rate": 0.287577,
+      "win_rate": 0.520748,
+      "name_ru": "Пакито"
+    },
+    "102": {
+      "id": 102,
+      "name": "Mathilda",
+      "slug": "mathilda",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_c3d601a8f6a69409359083ba599f0bb6.png",
+      "role": "Support",
+      "assist": [
+        3,
+        15
+      ],
+      "strong": [
+        23,
+        66
+      ],
+      "weak": [
+        10,
+        74
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.001045,
+      "ban_rate": 0.006783,
+      "win_rate": 0.428413,
+      "name_ru": "Матильда"
+    },
+    "101": {
+      "id": 101,
+      "name": "Yve",
+      "slug": "yve",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_d8cc30b9d273a81bd838afc691852b6f.png",
+      "role": "Mage",
+      "assist": [
+        19,
+        41,
+        93
+      ],
+      "strong": [
+        117,
+        99,
+        108
+      ],
+      "weak": [
+        113,
+        3,
+        8
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.0012,
+      "ban_rate": 0.002759,
+      "win_rate": 0.514979,
+      "name_ru": "Ив"
+    },
+    "100": {
+      "id": 100,
+      "name": "Brody",
+      "slug": "brody",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dc8216bde520fd7be7a2e9e6fad90191.png",
+      "role": "Marksman",
+      "assist": [
+        49,
+        74
+      ],
+      "strong": [
+        109,
+        113
+      ],
+      "weak": [
+        58,
+        89
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.00498,
+      "ban_rate": 0.005671,
+      "win_rate": 0.505644,
+      "name_ru": "Броуди"
+    },
+    "99": {
+      "id": 99,
+      "name": "Barats",
+      "slug": "barats",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2ff4a47ddc77ec9e4e5a522fd696d2c4.png",
+      "role": "Tank",
+      "assist": [
+        102,
+        55
+      ],
+      "strong": [
+        70,
+        20
+      ],
+      "weak": [
+        9,
+        31
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.00135,
+      "ban_rate": 0.001054,
+      "win_rate": 0.497757,
+      "name_ru": "Бартс"
+    },
+    "98": {
+      "id": 98,
+      "name": "Khaleed",
+      "slug": "khaleed",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_216ea76d9188164c58950885b3962ba1.png",
+      "role": "Fighter",
+      "assist": [
+        39,
+        8
+      ],
+      "strong": [
+        33,
+        115
+      ],
+      "weak": [
+        83,
+        26
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.003538,
+      "ban_rate": 0.006682,
+      "win_rate": 0.526865,
+      "name_ru": "Халид"
+    },
+    "97": {
+      "id": 97,
+      "name": "Benedetta",
+      "slug": "benedetta",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eceefa7ba07f093d71a30852f0051b7a.png",
+      "role": "Assassin",
+      "assist": [
+        32,
+        41
+      ],
+      "strong": [
+        54,
+        80
+      ],
+      "weak": [
+        74,
+        106
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.005098,
+      "ban_rate": 0.008391,
+      "win_rate": 0.516588,
+      "name_ru": "Бенедетта"
+    },
+    "96": {
+      "id": 96,
+      "name": "Luo Yi",
+      "slug": "luoyi",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_74fe63bd31cc092aed923543a115b7bd.png",
+      "role": "Mage",
+      "assist": [
+        109,
+        8
+      ],
+      "strong": [
+        15,
+        23
+      ],
+      "weak": [
+        59,
+        117
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.001848,
+      "ban_rate": 0.001006,
+      "win_rate": 0.464604,
+      "name_ru": "Ло Йи"
+    },
+    "95": {
+      "id": 95,
+      "name": "Yu Zhong",
+      "slug": "yuzhong",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_7d5ad4d511f5257137028f19e9ee973f.png",
+      "role": "Fighter",
+      "assist": [
+        38,
+        115
+      ],
+      "strong": [
+        108,
+        16
+      ],
+      "weak": [
+        53,
+        40
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.011087,
+      "ban_rate": 0.027357,
+      "win_rate": 0.478139,
+      "name_ru": "Чонг"
+    },
+    "94": {
+      "id": 94,
+      "name": "Popol and Kupa",
+      "slug": "popolandkupa",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_30e98c9005e54b1625712892560ad9ab.png",
+      "role": "Marksman",
+      "assist": [
+        28,
+        98
+      ],
+      "strong": [
+        53,
+        100
+      ],
+      "weak": [
+        56,
+        8
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.002782,
+      "ban_rate": 0.003465,
+      "win_rate": 0.529124,
+      "name_ru": "Пополь и Купа"
+    },
+    "93": {
+      "id": 93,
+      "name": "Atlas",
+      "slug": "atlas",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_0dc01e8286bc92e5be3a3503dd47229c.png",
+      "role": "Tank",
+      "assist": [
+        66,
+        121
+      ],
+      "strong": [
+        38,
+        15
+      ],
+      "weak": [
+        57,
+        31
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.006176,
+      "ban_rate": 0.055242,
+      "win_rate": 0.515652,
+      "name_ru": "Атлас"
+    },
+    "92": {
+      "id": 92,
+      "name": "Carmilla",
+      "slug": "carmilla",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_358d6ad9cff97fc3bfef8a2bd4acbadd.png",
+      "role": "Support",
+      "assist": [
+        91,
+        36
+      ],
+      "strong": [
+        85,
+        37
+      ],
+      "weak": [
+        60,
+        89
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.005564,
+      "ban_rate": 0.014386,
+      "win_rate": 0.513399,
+      "name_ru": "Кармилла"
+    },
+    "91": {
+      "id": 91,
+      "name": "Cecilion",
+      "slug": "cecilion",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_af02ce891528cd3576858589d8d33d8d.png",
+      "role": "Mage",
+      "assist": [
+        92,
+        19
+      ],
+      "strong": [
+        2,
+        82
+      ],
+      "weak": [
+        84,
+        17
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.006263,
+      "ban_rate": 0.002239,
+      "win_rate": 0.492407,
+      "name_ru": "Сесилион"
+    },
+    "90": {
+      "id": 90,
+      "name": "Silvanna",
+      "slug": "silvanna",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fe98dd2e19bb6c29591763d1d11a3eb7.png",
+      "role": "Fighter",
+      "assist": [
+        93,
+        6
+      ],
+      "strong": [
+        18,
+        57
+      ],
+      "weak": [
+        58
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.012936,
+      "ban_rate": 0.030085,
+      "win_rate": 0.526892,
+      "name_ru": "Сильвана"
+    },
+    "89": {
+      "id": 89,
+      "name": "Wanwan",
+      "slug": "wanwan",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_c042bfb106853182a8c38ae5386ceb77.png",
+      "role": "Marksman",
+      "assist": [
+        10,
+        70
+      ],
+      "strong": [
+        117,
+        96
+      ],
+      "weak": [
+        47,
+        23
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.001507,
+      "ban_rate": 0.002394,
+      "win_rate": 0.483203,
+      "name_ru": "Ванван"
+    },
+    "88": {
+      "id": 88,
+      "name": "Masha",
+      "slug": "masha",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6fcd3a37b34ea16ca6b485b88220e400.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        121,
+        18
+      ],
+      "weak": [
+        123,
+        72
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.001068,
+      "ban_rate": 0.006339,
+      "win_rate": 0.557782,
+      "name_ru": "Маша"
+    },
+    "87": {
+      "id": 87,
+      "name": "Baxia",
+      "slug": "baxia",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ae43a252fda0fe996322ea8d27a6fe69.png",
+      "role": "Tank",
+      "assist": [
+        72,
+        28
+      ],
+      "strong": [
+        61,
+        90
+      ],
+      "weak": [
+        40,
+        53
+      ],
+      "lane": "",
+      "pick_rate": 0.001954,
+      "ban_rate": 0.004627,
+      "win_rate": 0.511853,
+      "name_ru": "Баксий"
+    },
+    "86": {
+      "id": 86,
+      "name": "Lylia",
+      "slug": "lylia",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_5814b1901de2d5713e04b47e36d305e0.png",
+      "role": "Mage",
+      "assist": [
+        19,
+        10
+      ],
+      "strong": [
+        92,
+        49
+      ],
+      "weak": [
+        122,
+        84
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.006401,
+      "ban_rate": 0.016479,
+      "win_rate": 0.487059,
+      "name_ru": "Лилия"
+    },
+    "85": {
+      "id": 85,
+      "name": "Dyrroth",
+      "slug": "dyrroth",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_bf8dcb20923cee2407563e0fe88aa557.png",
+      "role": "Fighter",
+      "assist": [
+        10,
+        62
+      ],
+      "strong": [
+        23,
+        60
+      ],
+      "weak": [
+        38,
+        70
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.012638,
+      "ban_rate": 0.010269,
+      "win_rate": 0.479872,
+      "name_ru": "Дариус"
+    },
+    "84": {
+      "id": 84,
+      "name": "Ling",
+      "slug": "ling",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_4405561c38db556d9cdc6a57b8642e66.png",
+      "role": "Assassin",
+      "assist": [
+        55,
+        78
+      ],
+      "strong": [
+        18,
+        60
+      ],
+      "weak": [
+        15,
+        54
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.00207,
+      "ban_rate": 0.001744,
+      "win_rate": 0.452621,
+      "name_ru": "Линг"
+    },
+    "83": {
+      "id": 83,
+      "name": "X.Borg",
+      "slug": "xborg",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_cc433460d0b2053a3d3a18b46462bfb2.png",
+      "role": "Fighter",
+      "assist": [
+        8,
+        58
+      ],
+      "strong": [
+        82,
+        108
+      ],
+      "weak": [
+        58,
+        85
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.006238,
+      "ban_rate": 0.041006,
+      "win_rate": 0.497068,
+      "name_ru": "Икс.Борг"
+    },
+    "82": {
+      "id": 82,
+      "name": "Terizla",
+      "slug": "terizla",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fcfbde52476bad8c8e67951240de854c.png",
+      "role": "Fighter",
+      "assist": [
+        41,
+        93
+      ],
+      "strong": [
+        16,
+        27
+      ],
+      "weak": [
+        120,
+        53
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.005484,
+      "ban_rate": 0.006056,
+      "win_rate": 0.524076,
+      "name_ru": "Тэризла"
+    },
+    "81": {
+      "id": 81,
+      "name": "Esmeralda",
+      "slug": "esmeralda",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f684768281faab70dea48d06fb72979e.png",
+      "role": "Tank",
+      "assist": [
+        93,
+        6
+      ],
+      "strong": [
+        9,
+        20
+      ],
+      "weak": [
+        40,
+        53
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.004063,
+      "ban_rate": 0.006647,
+      "win_rate": 0.436311,
+      "name_ru": "Эсмеральда"
+    },
+    "80": {
+      "id": 80,
+      "name": "Guinevere",
+      "slug": "guinevere",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a34258a6365097da09d9513b620bc14a.png",
+      "role": "Fighter",
+      "assist": [
+        10,
+        49
+      ],
+      "strong": [
+        16,
+        90
+      ],
+      "weak": [
+        77,
+        26
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.01273,
+      "ban_rate": 0.313891,
+      "win_rate": 0.506063,
+      "name_ru": "Гвиневра"
+    },
+    "79": {
+      "id": 79,
+      "name": "Granger",
+      "slug": "granger",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_22/100_9ed57f48f91012fd110935258cd1ab61.png",
+      "role": "Marksman",
+      "assist": [
+        10,
+        62
+      ],
+      "strong": [
+        61,
+        91
+      ],
+      "weak": [
+        3,
+        21
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.013946,
+      "ban_rate": 0.031228,
+      "win_rate": 0.426388,
+      "name_ru": "Грейнджер"
+    },
+    "78": {
+      "id": 78,
+      "name": "Khufra",
+      "slug": "khufra",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_5e137ba2f4b8c5a6cd113926f8e8387b.png",
+      "role": "Tank",
+      "assist": [
+        15,
+        52
+      ],
+      "strong": [
+        118,
+        47
+      ],
+      "weak": [
+        117,
+        104
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.002662,
+      "ban_rate": 0.029181,
+      "win_rate": 0.535708,
+      "name_ru": "Хуфра"
+    },
+    "77": {
+      "id": 77,
+      "name": "Badang",
+      "slug": "badang",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_484caceb9611d547774d6d936519a7d6.png",
+      "role": "Fighter",
+      "assist": [
+        6,
+        96
+      ],
+      "strong": [
+        18,
+        46
+      ],
+      "weak": [
+        89,
+        84
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.009128,
+      "ban_rate": 0.010627,
+      "win_rate": 0.504453,
+      "name_ru": "Баданг"
+    },
+    "76": {
+      "id": 76,
+      "name": "Faramis",
+      "slug": "faramis",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4bed236fc260d9924b030e576793a26b.png",
+      "role": "Support",
+      "assist": [
+        67,
+        58
+      ],
+      "strong": [
+        3,
+        15
+      ],
+      "weak": [
+        119,
+        52
+      ],
+      "lane": "",
+      "pick_rate": 0.000917,
+      "ban_rate": 0.007505,
+      "win_rate": 0.497988,
+      "name_ru": "Фарамис"
+    },
+    "75": {
+      "id": 75,
+      "name": "Kadita",
+      "slug": "kadita",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_db76619a5d692aff3f78e3ff8d075a35.png",
+      "role": "Mage",
+      "assist": [
+        93,
+        6
+      ],
+      "strong": [
+        36,
+        15
+      ],
+      "weak": [
+        13,
+        105
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.009561,
+      "ban_rate": 0.078798,
+      "win_rate": 0.511814,
+      "name_ru": "Кадита"
+    },
+    "74": {
+      "id": 74,
+      "name": "Minsitthar",
+      "slug": "minsitthar",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dbfdfa2d0a3cc95cbc197d0a14d5ecd1.png",
+      "role": "Fighter",
+      "assist": [
+        114,
+        60
+      ],
+      "strong": [
+        97,
+        120
+      ],
+      "weak": [
+        16,
+        108
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.00847,
+      "ban_rate": 0.226237,
+      "win_rate": 0.518475,
+      "name_ru": "Минситтар"
+    },
+    "73": {
+      "id": 73,
+      "name": "Harith",
+      "slug": "harith",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0f81a3d82eb05c2c062fc6ea8b3d6578.png",
+      "role": "Mage",
+      "assist": [
+        74,
+        19
+      ],
+      "strong": [
+        70,
+        32
+      ],
+      "weak": [
+        119,
+        52
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.007675,
+      "ban_rate": 0.031699,
+      "win_rate": 0.483876,
+      "name_ru": "Харит"
+    },
+    "72": {
+      "id": 72,
+      "name": "Thamuz",
+      "slug": "thamuz",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_3e7e133556af2f5d82f49fa8624b6bd5.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        16,
+        27
+      ],
+      "weak": [
+        40,
+        43
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.010709,
+      "ban_rate": 0.041275,
+      "win_rate": 0.499593,
+      "name_ru": "Тамуз"
+    },
+    "71": {
+      "id": 71,
+      "name": "Kimmy",
+      "slug": "kimmy",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_3fa938873a71f33898f26b19db654b7d.png",
+      "role": "Marksman",
+      "assist": [
+        77,
+        29
+      ],
+      "strong": [
+        79,
+        91
+      ],
+      "weak": [
+        3,
+        47
+      ],
+      "lane": "",
+      "pick_rate": 0.007958,
+      "ban_rate": 0.006688,
+      "win_rate": 0.471786,
+      "name_ru": "Кимми"
+    },
+    "70": {
+      "id": 70,
+      "name": "Belerick",
+      "slug": "belerick",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_c9aa12fe3c58449075a5ac8b6d691a13.png",
+      "role": "Tank",
+      "assist": [
+        107,
+        1
+      ],
+      "strong": [
+        47,
+        84
+      ],
+      "weak": [
+        57,
+        115
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.015849,
+      "ban_rate": 0.109913,
+      "win_rate": 0.528406,
+      "name_ru": "Белерик"
+    },
+    "69": {
+      "id": 69,
+      "name": "Hanzo",
+      "slug": "hanzo",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_746725e15c7577be6bb92b2665adf447.png",
+      "role": "Assassin",
+      "assist": [
+        36,
+        70,
+        6
+      ],
+      "strong": [
+        18,
+        121,
+        125
+      ],
+      "weak": [
+        17,
+        47,
+        120
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.003161,
+      "ban_rate": 0.026422,
+      "win_rate": 0.503522,
+      "name_ru": "Ханзо"
+    },
+    "68": {
+      "id": 68,
+      "name": "Lunox",
+      "slug": "lunox",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_69d35cd0c549a9bdbcf9fbfddf3122a5.png",
+      "role": "Mage",
+      "assist": [
+        10,
+        19
+      ],
+      "strong": [
+        101,
+        86
+      ],
+      "weak": [
+        122,
+        84
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.003024,
+      "ban_rate": 0.004184,
+      "win_rate": 0.47993,
+      "name_ru": "Люнокс"
+    },
+    "67": {
+      "id": 67,
+      "name": "Leomord",
+      "slug": "leomord",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6c205605c520867a534e4e74588a7208.png",
+      "role": "Fighter",
+      "assist": [
+        52,
+        38
+      ],
+      "strong": [
+        46,
+        52,
+        101,
+        91
+      ],
+      "weak": [
+        106,
+        10,
+        9,
+        5
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.011744,
+      "ban_rate": 0.132534,
+      "win_rate": 0.531119,
+      "name_ru": "Леоморд"
+    },
+    "66": {
+      "id": 66,
+      "name": "Vale",
+      "slug": "vale",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_344849c04f420fda542682b73c3f31d1.png",
+      "role": "Mage",
+      "assist": [
+        20,
+        70
+      ],
+      "strong": [
+        82,
+        35
+      ],
+      "weak": [
+        21,
+        84
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.006035,
+      "ban_rate": 0.003655,
+      "win_rate": 0.507307,
+      "name_ru": "Вэйл"
+    },
+    "65": {
+      "id": 65,
+      "name": "Claude",
+      "slug": "claude",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_808e898e89986b917e146a9b5dcbbb57.png",
+      "role": "Marksman",
+      "assist": [
+        55,
+        76
+      ],
+      "strong": [
+        38,
+        112
+      ],
+      "weak": [
+        15,
+        10
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.01092,
+      "ban_rate": 0.006447,
+      "win_rate": 0.493272,
+      "name_ru": "Клауд"
+    },
+    "64": {
+      "id": 64,
+      "name": "Aldous",
+      "slug": "aldous",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c2f6866ffc797395ee35f97a74bbea20.png",
+      "role": "Fighter",
+      "assist": [
+        2,
+        12
+      ],
+      "strong": [
+        16,
+        67
+      ],
+      "weak": [
+        58,
+        85
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.00345,
+      "ban_rate": 0.004387,
+      "win_rate": 0.497911,
+      "name_ru": "Алдос"
+    },
+    "63": {
+      "id": 63,
+      "name": "Selena",
+      "slug": "selena",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_547ce6e3351ef7a46c02b51d0c4e452c.png",
+      "role": "Assassin",
+      "assist": [
+        115,
+        105
+      ],
+      "strong": [
+        23,
+        18
+      ],
+      "weak": [
+        60,
+        89
+      ],
+      "lane": "",
+      "pick_rate": 0.011537,
+      "ban_rate": 0.039055,
+      "win_rate": 0.477341,
+      "name_ru": "Селена"
+    },
+    "62": {
+      "id": 62,
+      "name": "Kaja",
+      "slug": "kaja",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_87a88d7acc62a25869a5316147f3ce6a.png",
+      "role": "Support",
+      "assist": [
+        15,
+        109
+      ],
+      "strong": [
+        17,
+        47
+      ],
+      "weak": [
+        18,
+        52
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.002713,
+      "ban_rate": 0.09013,
+      "win_rate": 0.538882,
+      "name_ru": "Кайя "
+    },
+    "61": {
+      "id": 61,
+      "name": "Chang'e",
+      "slug": "change",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4a2db83b0fb92b826f039955d1b8b5df.png",
+      "role": "Mage",
+      "assist": [
+        41,
+        6
+      ],
+      "strong": [
+        15,
+        46
+      ],
+      "weak": [
+        69,
+        42
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.008312,
+      "ban_rate": 0.006059,
+      "win_rate": 0.488127,
+      "name_ru": "Чан'Э"
+    },
+    "60": {
+      "id": 60,
+      "name": "Hanabi",
+      "slug": "hanabi",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_85d213390613bbc09220cf1d9f64c5c0.png",
+      "role": "Marksman",
+      "assist": [
+        92,
+        93
+      ],
+      "strong": [
+        6,
+        70
+      ],
+      "weak": [
+        47,
+        16
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.032621,
+      "ban_rate": 0.109791,
+      "win_rate": 0.547197,
+      "name_ru": "Ханаби"
+    },
+    "59": {
+      "id": 59,
+      "name": "Uranus",
+      "slug": "uranus",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_04a36899ac866eecb1d3a9c436cfb1d9.png",
+      "role": "Tank",
+      "assist": [
+        105,
+        60
+      ],
+      "strong": [
+        6,
+        10
+      ],
+      "weak": [
+        18,
+        53
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.004512,
+      "ban_rate": 0.008257,
+      "win_rate": 0.509997,
+      "name_ru": "Уранус"
+    },
+    "58": {
+      "id": 58,
+      "name": "Martis",
+      "slug": "martis",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9691f86f84a553ea3982014738905f3f.png",
+      "role": "Fighter",
+      "assist": [
+        28,
+        98
+      ],
+      "strong": [
+        18,
+        46
+      ],
+      "weak": [
+        72,
+        117
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.005824,
+      "ban_rate": 0.006841,
+      "win_rate": 0.467124,
+      "name_ru": "Мартис"
+    },
+    "57": {
+      "id": 57,
+      "name": "Valir",
+      "slug": "valir",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cd4c780c0ed639e2889c1131e56638ec.png",
+      "role": "Mage",
+      "assist": [
+        98,
+        95
+      ],
+      "strong": [
+        2,
+        117
+      ],
+      "weak": [
+        47,
+        17
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.01033,
+      "ban_rate": 0.02538,
+      "win_rate": 0.529074,
+      "name_ru": "Валир"
+    },
+    "56": {
+      "id": 56,
+      "name": "Gusion",
+      "slug": "gusion",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_82dbd20a7d0f274520895007898199e0.png",
+      "role": "Assassin",
+      "assist": [
+        38,
+        52
+      ],
+      "strong": [
+        18,
+        60
+      ],
+      "weak": [
+        10,
+        62
+      ],
+      "lane": "",
+      "pick_rate": 0.015932,
+      "ban_rate": 0.109988,
+      "win_rate": 0.493149,
+      "name_ru": "Госсен"
+    },
+    "55": {
+      "id": 55,
+      "name": "Angela",
+      "slug": "angela",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a815a3adad8df99481700c84abaf3c41.png",
+      "role": "Support",
+      "assist": [
+        47,
+        109
+      ],
+      "strong": [
+        59,
+        70
+      ],
+      "weak": [
+        84,
+        42
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.016175,
+      "ban_rate": 0.142794,
+      "win_rate": 0.489793,
+      "name_ru": "Ангела"
+    },
+    "54": {
+      "id": 54,
+      "name": "Jawhead",
+      "slug": "jawhead",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_4448132d3f9d89dc706883d148e50884.png",
+      "role": "Fighter",
+      "assist": [
+        46,
+        70
+      ],
+      "strong": [
+        3,
+        15
+      ],
+      "weak": [
+        111,
+        72
+      ],
+      "lane": "",
+      "pick_rate": 0.004163,
+      "ban_rate": 0.003756,
+      "win_rate": 0.476999,
+      "name_ru": "Кусака"
+    },
+    "53": {
+      "id": 53,
+      "name": "Lesley",
+      "slug": "lesley",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_2bd608ac82a1af4783c5d0fff0c280dc.png",
+      "role": "Marksman",
+      "assist": [
+        19,
+        87
+      ],
+      "strong": [
+        41,
+        117
+      ],
+      "weak": [
+        84,
+        47
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.018002,
+      "ban_rate": 0.089165,
+      "win_rate": 0.465254,
+      "name_ru": "Лесли"
+    },
+    "52": {
+      "id": 52,
+      "name": "Pharsa",
+      "slug": "pharsa",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cccf53dbeacc789288ebc1fb63fcf7dd.png",
+      "role": "Mage",
+      "assist": [
+        93,
+        10
+      ],
+      "strong": [
+        18,
+        60,
+        115
+      ],
+      "weak": [
+        10,
+        16,
+        74
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.006152,
+      "ban_rate": 0.004417,
+      "win_rate": 0.474322,
+      "name_ru": "Фаша"
+    },
+    "51": {
+      "id": 51,
+      "name": "Helcurt",
+      "slug": "helcurt",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ffd27cd02c46f7075caedcd51de80d9a.png",
+      "role": "Assassin",
+      "assist": [
+        6,
+        81,
+        82
+      ],
+      "strong": [
+        18,
+        61,
+        66
+      ],
+      "weak": [
+        117,
+        70,
+        41
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.008385,
+      "ban_rate": 0.274539,
+      "win_rate": 0.499138,
+      "name_ru": "Хелкарт"
+    },
+    "50": {
+      "id": 50,
+      "name": "Zhask",
+      "slug": "zhask",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7e69b480400b37dd75614f0c8d033c37.png",
+      "role": "Mage",
+      "assist": [
+        70,
+        20
+      ],
+      "strong": [
+        64,
+        103
+      ],
+      "weak": [
+        52,
+        91
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.00342,
+      "ban_rate": 0.007946,
+      "win_rate": 0.517804,
+      "name_ru": "Заск"
+    },
+    "49": {
+      "id": 49,
+      "name": "Hylos",
+      "slug": "hylos",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_22d8716de16d99253671c2f9e59d9ef3.png",
+      "role": "Tank",
+      "assist": [
+        82,
+        74
+      ],
+      "strong": [
+        18,
+        23
+      ],
+      "weak": [
+        40,
+        53
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.003627,
+      "ban_rate": 0.006426,
+      "win_rate": 0.487316,
+      "name_ru": "Хилос"
+    },
+    "48": {
+      "id": 48,
+      "name": "Diggie",
+      "slug": "diggie",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7a7a688cf1562a124f7183b2c2957608.png",
+      "role": "Support",
+      "assist": [
+        18,
+        1
+      ],
+      "strong": [
+        93,
+        20
+      ],
+      "weak": [
+        84,
+        109
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.002025,
+      "ban_rate": 0.128435,
+      "win_rate": 0.540461,
+      "name_ru": "Дигги"
+    },
+    "47": {
+      "id": 47,
+      "name": "Lancelot",
+      "slug": "lancelot",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_aa4070a1eb5a53e1824bc9b2d9a47ed2.png",
+      "role": "Assassin",
+      "assist": [
+        93,
+        6
+      ],
+      "strong": [
+        91,
+        52
+      ],
+      "weak": [
+        74,
+        106
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.007797,
+      "ban_rate": 0.010534,
+      "win_rate": 0.430387,
+      "name_ru": "Ланселот"
+    },
+    "46": {
+      "id": 46,
+      "name": "Odette",
+      "slug": "odette",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_6fd1d8e4d436d1de3102a7880cd61cbd.png",
+      "role": "Mage",
+      "assist": [
+        32,
+        54
+      ],
+      "strong": [
+        18,
+        43
+      ],
+      "weak": [
+        19,
+        111
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.007176,
+      "ban_rate": 0.005674,
+      "win_rate": 0.509652,
+      "name_ru": "Одетта"
+    },
+    "45": {
+      "id": 45,
+      "name": "Argus",
+      "slug": "argus",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ee4f9ddb2f82ef0dfc99bb72e0a8f557.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        23,
+        36
+      ],
+      "weak": [
+        41,
+        6
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.003876,
+      "ban_rate": 0.012931,
+      "win_rate": 0.524379,
+      "name_ru": "Аргус"
+    },
+    "44": {
+      "id": 44,
+      "name": "Grock",
+      "slug": "grock",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_902/100_517b20f98bf1859bc57f5cc1b477b0e8.png",
+      "role": "Tank",
+      "assist": [
+        46,
+        52
+      ],
+      "strong": [
+        23,
+        18
+      ],
+      "weak": [
+        71,
+        42
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.006207,
+      "ban_rate": 0.051319,
+      "win_rate": 0.478768,
+      "name_ru": "Грок"
+    },
+    "43": {
+      "id": 43,
+      "name": "Irithel",
+      "slug": "irithel",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5af934fae1b64f1c689a346741a49858.png",
+      "role": "Marksman",
+      "assist": [
+        57,
+        49
+      ],
+      "strong": [
+        1,
+        28
+      ],
+      "weak": [
+        77,
+        90
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.005283,
+      "ban_rate": 0.003211,
+      "win_rate": 0.51365,
+      "name_ru": "Иритель"
+    },
+    "42": {
+      "id": 42,
+      "name": "Harley",
+      "slug": "harley",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_503566ddaa4727778929dee4b3a01807.png",
+      "role": "Assassin",
+      "assist": [
+        9,
+        78
+      ],
+      "strong": [
+        91,
+        121
+      ],
+      "weak": [
+        20,
+        59
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.012739,
+      "ban_rate": 0.674127,
+      "win_rate": 0.503322,
+      "name_ru": "Харли"
+    },
+    "41": {
+      "id": 41,
+      "name": "Gatotkaca",
+      "slug": "gatotkaca",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e3ccd096c9c4649519d736073acca91a.png",
+      "role": "Tank",
+      "assist": [
+        25,
+        66
+      ],
+      "strong": [
+        18,
+        94
+      ],
+      "weak": [
+        48,
+        89
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.006922,
+      "ban_rate": 0.005157,
+      "win_rate": 0.469704,
+      "name_ru": "Гатоткача"
+    },
+    "40": {
+      "id": 40,
+      "name": "Karrie",
+      "slug": "karrie",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_4a4cb5e4c5df81e1fea1b75ab3b774b7.png",
+      "role": "Marksman",
+      "assist": [
+        3,
+        109
+      ],
+      "strong": [
+        6,
+        117
+      ],
+      "weak": [
+        115,
+        18,
+        5
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.009625,
+      "ban_rate": 0.033703,
+      "win_rate": 0.504999,
+      "name_ru": "Кэрри"
+    },
+    "39": {
+      "id": 39,
+      "name": "Roger",
+      "slug": "roger",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_168335bcb95f73c6d653ec4971420923.png",
+      "role": "Fighter",
+      "assist": [
+        52,
+        38
+      ],
+      "strong": [
+        60,
+        46
+      ],
+      "weak": [
+        74,
+        78
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.003008,
+      "ban_rate": 0.001073,
+      "win_rate": 0.490225,
+      "name_ru": "Роджер"
+    },
+    "38": {
+      "id": 38,
+      "name": "Vexana",
+      "slug": "vexana",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_39c9058219c59535e9ed07645c8d9dd3.png",
+      "role": "Mage",
+      "assist": [
+        93,
+        105
+      ],
+      "strong": [
+        18,
+        43,
+        115
+      ],
+      "weak": [
+        3,
+        109,
+        8
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.019303,
+      "ban_rate": 0.017063,
+      "win_rate": 0.508146,
+      "name_ru": "Вексана"
+    },
+    "37": {
+      "id": 37,
+      "name": "Lapu-Lapu",
+      "slug": "lapulapu",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b72b473b98494269cedbba84d4888409.png",
+      "role": "Fighter",
+      "assist": [
+        6,
+        93
+      ],
+      "strong": [
+        18,
+        15
+      ],
+      "weak": [
+        53,
+        31
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.005005,
+      "ban_rate": 0.009397,
+      "win_rate": 0.480506,
+      "name_ru": "Лапу-Лапу"
+    },
+    "36": {
+      "id": 36,
+      "name": "Aurora",
+      "slug": "aurora",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1f3f900f917956e81d7764b9e5ffeb3d.png",
+      "role": "Mage",
+      "assist": [
+        121,
+        22,
+        40
+      ],
+      "strong": [
+        67,
+        72,
+        82
+      ],
+      "weak": [
+        84,
+        75,
+        80
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.003923,
+      "ban_rate": 0.002711,
+      "win_rate": 0.477892,
+      "name_ru": "Аврора"
+    },
+    "35": {
+      "id": 35,
+      "name": "Hilda",
+      "slug": "hilda",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ee3a714054edf41ae09dd0c33faf07de.png",
+      "role": "Fighter",
+      "assist": [
+        14,
+        10
+      ],
+      "strong": [
+        16,
+        18
+      ],
+      "weak": [
+        72,
+        59
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.010021,
+      "ban_rate": 0.193061,
+      "win_rate": 0.527603,
+      "name_ru": "Хильда"
+    },
+    "34": {
+      "id": 34,
+      "name": "Estes",
+      "slug": "estes",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a3619b68f415405f0a1ad77be31eb64d.png",
+      "role": "Support",
+      "assist": [
+        53,
+        60
+      ],
+      "strong": [
+        57,
+        4
+      ],
+      "weak": [
+        3,
+        15
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.006323,
+      "ban_rate": 0.520088,
+      "win_rate": 0.523625,
+      "name_ru": "Эстес"
+    },
+    "33": {
+      "id": 33,
+      "name": "Cyclops",
+      "slug": "cyclops",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_71c31e9801e7d1b40604d54099b30054.png",
+      "role": "Mage",
+      "assist": [
+        70,
+        74
+      ],
+      "strong": [
+        82,
+        28
+      ],
+      "weak": [
+        47,
+        7,
+        25
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.007897,
+      "ban_rate": 0.004064,
+      "win_rate": 0.514693,
+      "name_ru": "Циклоп"
+    },
+    "32": {
+      "id": 32,
+      "name": "Johnson",
+      "slug": "johnson",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9939e5cc09011a287a989b7d4b3aec4d.png",
+      "role": "Tank",
+      "assist": [
+        46,
+        75
+      ],
+      "strong": [
+        7,
+        16
+      ],
+      "weak": [
+        73,
+        25
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.008434,
+      "ban_rate": 0.027004,
+      "win_rate": 0.506007,
+      "name_ru": "Джонсон"
+    },
+    "31": {
+      "id": 31,
+      "name": "Moskov",
+      "slug": "moskov",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9cf1a5936ac506d5e1b911be097acfb7.png",
+      "role": "Marksman",
+      "assist": [
+        117,
+        41
+      ],
+      "strong": [
+        72,
+        2
+      ],
+      "weak": [
+        47,
+        24
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.010062,
+      "ban_rate": 0.003734,
+      "win_rate": 0.49837,
+      "name_ru": "Москов"
+    },
+    "30": {
+      "id": 30,
+      "name": "Yi Sun-shin",
+      "slug": "yisunshin",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3fe7fdb5f2aedef505f3728c28572e2e.png",
+      "role": "Assassin",
+      "assist": [
+        28,
+        98
+      ],
+      "strong": [
+        59,
+        82
+      ],
+      "weak": [
+        10,
+        62
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.014398,
+      "ban_rate": 0.113665,
+      "win_rate": 0.503315,
+      "name_ru": "Ли Сун-Син"
+    },
+    "29": {
+      "id": 29,
+      "name": "Ruby",
+      "slug": "ruby",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5b9d38f9f2e7ca03f9f489de19656bc9.png",
+      "role": "Fighter",
+      "assist": [
+        52,
+        75
+      ],
+      "strong": [
+        64,
+        80
+      ],
+      "weak": [
+        89,
+        43
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.004303,
+      "ban_rate": 0.004653,
+      "win_rate": 0.506546,
+      "name_ru": "Руби"
+    },
+    "28": {
+      "id": 28,
+      "name": "Alpha",
+      "slug": "alpha",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_d3993266ec8b303b02c845f2c75d5e6d.png",
+      "role": "Fighter",
+      "assist": [
+        38,
+        63
+      ],
+      "strong": [
+        18,
+        121
+      ],
+      "weak": [
+        26,
+        56
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.010839,
+      "ban_rate": 0.007277,
+      "win_rate": 0.473587,
+      "name_ru": "Альфа"
+    },
+    "27": {
+      "id": 27,
+      "name": "Sun",
+      "slug": "sun",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_eb0864090b1d5307dfeba628de0d294a.png",
+      "role": "Fighter",
+      "assist": [
+        70,
+        6
+      ],
+      "strong": [
+        10,
+        41
+      ],
+      "weak": [
+        29
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.016274,
+      "ban_rate": 0.400954,
+      "win_rate": 0.538897,
+      "name_ru": "Сан"
+    },
+    "26": {
+      "id": 26,
+      "name": "Chou",
+      "slug": "chou",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_850c4b51e3dbab3fd12a718917eaaf44.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        82,
+        28
+      ],
+      "weak": [
+        53,
+        52
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.011663,
+      "ban_rate": 0.028978,
+      "win_rate": 0.464323,
+      "name_ru": "Чу"
+    },
+    "25": {
+      "id": 25,
+      "name": "Kagura",
+      "slug": "kagura",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_634196d9234babcc3072155d4fefaf0c.png",
+      "role": "Mage",
+      "assist": [
+        93,
+        6
+      ],
+      "strong": [
+        18,
+        15
+      ],
+      "weak": [
+        118,
+        58
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.00624,
+      "ban_rate": 0.00828,
+      "win_rate": 0.50124,
+      "name_ru": "Кагура"
+    },
+    "24": {
+      "id": 24,
+      "name": "Natalia",
+      "slug": "natalia",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ee09a1367736f8a46641f07f5d1d6618.png",
+      "role": "Assassin",
+      "assist": [
+        30,
+        38
+      ],
+      "strong": [
+        119,
+        43
+      ],
+      "weak": [
+        74,
+        62
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.002794,
+      "ban_rate": 0.020465,
+      "win_rate": 0.499385,
+      "name_ru": "Наталья"
+    },
+    "23": {
+      "id": 23,
+      "name": "Gord",
+      "slug": "gord",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_6ba16b4ca438152a629e7706cbd7453d.png",
+      "role": "Mage",
+      "assist": [
+        49,
+        70
+      ],
+      "strong": [
+        99,
+        117
+      ],
+      "weak": [
+        17,
+        47
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.015352,
+      "ban_rate": 0.032634,
+      "win_rate": 0.554996,
+      "name_ru": "Горд"
+    },
+    "22": {
+      "id": 22,
+      "name": "Freya",
+      "slug": "freya",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_b95ffc5769380f10a409d864d4162433.png",
+      "role": "Fighter",
+      "assist": [
+        70,
+        41
+      ],
+      "strong": [
+        53,
+        121
+      ],
+      "weak": [
+        106,
+        130
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.011145,
+      "ban_rate": 0.16443,
+      "win_rate": 0.516042,
+      "name_ru": "Фрейя"
+    },
+    "21": {
+      "id": 21,
+      "name": "Hayabusa",
+      "slug": "hayabusa",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_63cb1f44bf906b71767a000e38d8ab14.png",
+      "role": "Assassin",
+      "assist": [
+        37,
+        28
+      ],
+      "strong": [
+        61,
+        91
+      ],
+      "weak": [
+        10,
+        62
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.008424,
+      "ban_rate": 0.046341,
+      "win_rate": 0.479423,
+      "name_ru": "Хаябуса"
+    },
+    "20": {
+      "id": 20,
+      "name": "Lolita",
+      "slug": "lolita",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_55de18c865efe8e360b3b9ae463d76a2.png",
+      "role": "Support",
+      "assist": [
+        60,
+        18
+      ],
+      "strong": [
+        71,
+        33
+      ],
+      "weak": [
+        84,
+        103
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.00116,
+      "ban_rate": 0.01833,
+      "win_rate": 0.548181,
+      "name_ru": "Лолита"
+    },
+    "19": {
+      "id": 19,
+      "name": "Minotaur",
+      "slug": "minotaur",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_3b7cb3a2be4264d3927f3b5a5050117a.png",
+      "role": "Tank",
+      "assist": [
+        79,
+        114
+      ],
+      "strong": [
+        103,
+        116
+      ],
+      "weak": [
+        18,
+        53
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.004363,
+      "ban_rate": 0.035777,
+      "win_rate": 0.525192,
+      "name_ru": "Минотавр"
+    },
+    "18": {
+      "id": 18,
+      "name": "Layla",
+      "slug": "layla",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6efe9abc2047f59d45fa1c88fb1261b7.png",
+      "role": "Marksman",
+      "assist": [
+        74,
+        70
+      ],
+      "strong": [
+        6,
+        70
+      ],
+      "weak": [
+        8,
+        84
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.01075,
+      "ban_rate": 0.01095,
+      "win_rate": 0.484003,
+      "name_ru": "Лейла"
+    },
+    "17": {
+      "id": 17,
+      "name": "Fanny",
+      "slug": "fanny",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ea3a95fa3c726ed0338c0fdd21ad991.png",
+      "role": "Assassin",
+      "assist": [
+        19,
+        41
+      ],
+      "strong": [
+        40,
+        43
+      ],
+      "weak": [
+        62,
+        78
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.005868,
+      "ban_rate": 0.030239,
+      "win_rate": 0.428532,
+      "name_ru": "Фанни"
+    },
+    "16": {
+      "id": 16,
+      "name": "Zilong",
+      "slug": "zilong",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_6ed2ac1fc08f2b5118b579b188289ca1.png",
+      "role": "Fighter",
+      "assist": [
+        52,
+        60
+      ],
+      "strong": [
+        18,
+        86
+      ],
+      "weak": [
+        10,
+        5
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.008942,
+      "ban_rate": 0.006958,
+      "win_rate": 0.474968,
+      "name_ru": "Зилонг"
+    },
+    "15": {
+      "id": 15,
+      "name": "Eudora",
+      "slug": "eudora",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_1384ce93e5bdb142ea4e5e6b9f941ff1.png",
+      "role": "Mage",
+      "assist": [
+        48,
+        6
+      ],
+      "strong": [
+        131,
+        31
+      ],
+      "weak": [
+        21,
+        75
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.008093,
+      "ban_rate": 0.024243,
+      "win_rate": 0.489613,
+      "name_ru": "Эйдора"
+    },
+    "14": {
+      "id": 14,
+      "name": "Rafaela",
+      "slug": "rafaela",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f22e22659e8b1acfb665aec8eaffabd7.png",
+      "role": "Support",
+      "assist": [
+        22,
+        37
+      ],
+      "strong": [
+        88,
+        99
+      ],
+      "weak": [
+        84,
+        21
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.003156,
+      "ban_rate": 0.033324,
+      "win_rate": 0.515218,
+      "name_ru": "Рафаэль"
+    },
+    "13": {
+      "id": 13,
+      "name": "Clint",
+      "slug": "clint",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ffb96ce8d57c9987401f9c5bfebee3b2.png",
+      "role": "Marksman",
+      "assist": [
+        14,
+        55
+      ],
+      "strong": [
+        31,
+        1
+      ],
+      "weak": [
+        114,
+        40
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.00785,
+      "ban_rate": 0.008774,
+      "win_rate": 0.504529,
+      "name_ru": "Клинт"
+    },
+    "12": {
+      "id": 12,
+      "name": "Bruno",
+      "slug": "bruno",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_68d7ca30f69cb691125e3f03cd782a53.png",
+      "role": "Marksman",
+      "assist": [
+        10,
+        78
+      ],
+      "strong": [
+        60,
+        1
+      ],
+      "weak": [
+        41,
+        117
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.001629,
+      "ban_rate": 0.00111,
+      "win_rate": 0.477375,
+      "name_ru": "Бруно"
+    },
+    "11": {
+      "id": 11,
+      "name": "Bane",
+      "slug": "bane",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_846a816f7905f17c81cb35e7f3ff1c3e.png",
+      "role": "Fighter",
+      "assist": [
+        6,
+        96
+      ],
+      "strong": [
+        49,
+        70
+      ],
+      "weak": [
+        66,
+        115
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.003058,
+      "ban_rate": 0.002119,
+      "win_rate": 0.515291,
+      "name_ru": "Бэйн"
+    },
+    "10": {
+      "id": 10,
+      "name": "Franco",
+      "slug": "franco",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_d21e5731e8bf993a9b3271767a3b3b97.png",
+      "role": "Tank",
+      "assist": [
+        66,
+        8,
+        100
+      ],
+      "strong": [
+        66,
+        34,
+        18
+      ],
+      "weak": [
+        89,
+        17,
+        77
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.012157,
+      "ban_rate": 0.060532,
+      "win_rate": 0.444648,
+      "name_ru": "Франко"
+    },
+    "9": {
+      "id": 9,
+      "name": "Akai",
+      "slug": "akai",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_809a19d0ffb6cd1b33d0f6d5715f8952.png",
+      "role": "Tank",
+      "assist": [
+        3,
+        15
+      ],
+      "strong": [
+        15,
+        46
+      ],
+      "weak": [
+        5,
+        48
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.005253,
+      "ban_rate": 0.04882,
+      "win_rate": 0.503119,
+      "name_ru": "Акай"
+    },
+    "8": {
+      "id": 8,
+      "name": "Karina",
+      "slug": "karina",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_4685e0fb17e2fabaf9cb23f8db8fa262.png",
+      "role": "Assassin",
+      "assist": [
+        6,
+        76
+      ],
+      "strong": [
+        18,
+        60
+      ],
+      "weak": [
+        9,
+        78
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.005391,
+      "ban_rate": 0.020667,
+      "win_rate": 0.464218,
+      "name_ru": "Карина"
+    },
+    "7": {
+      "id": 7,
+      "name": "Alucard",
+      "slug": "alucard",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_df695a059c0f0a63fe922786098089cd.png",
+      "role": "Fighter",
+      "assist": [
+        41,
+        115
+      ],
+      "strong": [
+        42,
+        109
+      ],
+      "weak": [
+        10,
+        32
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.00556,
+      "ban_rate": 0.00623,
+      "win_rate": 0.499727,
+      "name_ru": "Алукард"
+    },
+    "6": {
+      "id": 6,
+      "name": "Tigreal",
+      "slug": "tigreal",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4e0005dbfb1376beaccc54ef7aa39375.png",
+      "role": "Tank",
+      "assist": [
+        38,
+        46
+      ],
+      "strong": [
+        16,
+        22
+      ],
+      "weak": [
+        61,
+        50
+      ],
+      "lane": "Roam",
+      "pick_rate": 0.019848,
+      "ban_rate": 0.068988,
+      "win_rate": 0.476654,
+      "name_ru": "Тигрил"
+    },
+    "5": {
+      "id": 5,
+      "name": "Nana",
+      "slug": "nana",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ce58cae711d0907a722de0e65fbb85b7.png",
+      "role": "Mage",
+      "assist": [
+        14,
+        10
+      ],
+      "strong": [
+        15,
+        75
+      ],
+      "weak": [
+        16,
+        24
+      ],
+      "lane": "Mid Lane",
+      "pick_rate": 0.015729,
+      "ban_rate": 0.047091,
+      "win_rate": 0.481715,
+      "name_ru": "Нана"
+    },
+    "4": {
+      "id": 4,
+      "name": "Alice",
+      "slug": "alice",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_ec3d5c825e893947a235ea9ea59fff77.png",
+      "role": "Tank",
+      "assist": [
+        2,
+        85
+      ],
+      "strong": [
+        91,
+        61
+      ],
+      "weak": [
+        87,
+        58
+      ],
+      "lane": "Exp Lane",
+      "pick_rate": 0.007459,
+      "ban_rate": 0.07894,
+      "win_rate": 0.498345,
+      "name_ru": "Алиса"
+    },
+    "3": {
+      "id": 3,
+      "name": "Saber",
+      "slug": "saber",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_b5980d535886303ad116fba3463c76ce.png",
+      "role": "Assassin",
+      "assist": [
+        75,
+        33
+      ],
+      "strong": [
+        18,
+        15
+      ],
+      "weak": [
+        34,
+        76
+      ],
+      "lane": "Jungle",
+      "pick_rate": 0.009743,
+      "ban_rate": 0.222653,
+      "win_rate": 0.497159,
+      "name_ru": "Сабер"
+    },
+    "2": {
+      "id": 2,
+      "name": "Balmond",
+      "slug": "balmond",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_6c018674ea709972b4837ec90518e79e.png",
+      "role": "Fighter",
+      "assist": [
+        55,
+        14
+      ],
+      "strong": [
+        18,
+        15
+      ],
+      "weak": [
+        53,
+        43
+      ],
+      "lane": "",
+      "pick_rate": 0.002883,
+      "ban_rate": 0.002523,
+      "win_rate": 0.432676,
+      "name_ru": "Бальмонд"
+    },
+    "1": {
+      "id": 1,
+      "name": "Miya",
+      "slug": "miya",
+      "image": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_32c0d9d3a727a9052754296af6251435.png",
+      "role": "Marksman",
+      "assist": [
+        6,
+        70
+      ],
+      "strong": [
+        3,
+        15,
+        27
+      ],
+      "weak": [
+        52,
+        101
+      ],
+      "lane": "Gold Lane",
+      "pick_rate": 0.027317,
+      "ban_rate": 0.054304,
+      "win_rate": 0.51673,
+      "name_ru": "Мия"
+    }
+  },
+  "compatibility": {
+    "132": {
+      "110": 0.058401,
+      "115": 0.032194,
+      "88": 0.028789,
+      "124": 0.028145,
+      "111": 0.025665
+    },
+    "131": {
+      "84": 0.018904,
+      "112": 0.014506,
+      "72": 0.017467,
+      "83": 0.015256
+    },
+    "130": {
+      "73": 0.0304,
+      "69": 0.011918,
+      "122": 0.01013,
+      "118": 0.00908,
+      "106": 0.008959
+    },
+    "129": {
+      "110": 0.037973,
+      "42": 0.021756,
+      "88": 0.016536,
+      "56": 0.013004,
+      "8": 0.01248
+    },
+    "128": {
+      "88": 0.02986,
+      "110": 0.023238,
+      "40": 0.019674,
+      "11": 0.016025,
+      "3": 0.014451
+    },
+    "127": {
+      "124": 0.104901,
+      "88": 0.053513,
+      "106": 0.041594,
+      "112": 0.039841,
+      "110": 0.028583
+    },
+    "126": {
+      "106": 0.014098,
+      "59": 0.011899,
+      "110": 0.010959,
+      "124": 0.009143,
+      "132": 0.008631
+    },
+    "125": {
+      "110": 0.094367,
+      "25": 0.054149,
+      "46": 0.027908,
+      "102": 0.027348,
+      "48": 0.023837
+    },
+    "124": {
+      "88": 0.129564,
+      "112": 0.110579,
+      "127": 0.104901,
+      "120": 0.056,
+      "12": 0.048223
+    },
+    "123": {
+      "27": 0.02585,
+      "83": 0.020892,
+      "2": 0.020063,
+      "108": 0.019911,
+      "101": 0.019557
+    },
+    "122": {
+      "118": 0.075289,
+      "110": 0.020414,
+      "111": 0.016366,
+      "22": 0.015473,
+      "112": 0.015002
+    },
+    "121": {
+      "48": 0.071569,
+      "73": 0.052778,
+      "87": 0.036684,
+      "39": 0.027631,
+      "68": 0.021176
+    },
+    "120": {
+      "124": 0.056,
+      "11": 0.025163,
+      "77": 0.021285,
+      "132": 0.015978,
+      "20": 0.015649
+    },
+    "119": {
+      "50": 0.028357,
+      "125": 0.023098,
+      "110": 0.020354,
+      "36": 0.019985,
+      "72": 0.016164
+    },
+    "118": {
+      "122": 0.075289,
+      "88": 0.040909,
+      "76": 0.038866,
+      "110": 0.03584,
+      "89": 0.024152
+    },
+    "117": {
+      "55": 0.038153,
+      "48": 0.030749,
+      "23": 0.018506,
+      "105": 0.017975,
+      "34": 0.017301
+    },
+    "116": {
+      "10": 0.015837,
+      "89": 0.014979,
+      "93": 0.014005,
+      "32": 0.013399,
+      "104": 0.012803
+    },
+    "115": {
+      "132": 0.032194,
+      "110": 0.025105,
+      "62": 0.015773,
+      "64": 0.015262,
+      "59": 0.01385
+    },
+    "114": {
+      "73": 0.027158,
+      "20": 0.022804,
+      "97": 0.018514,
+      "94": 0.017987,
+      "39": 0.014799
+    },
+    "113": {
+      "27": 0.016633,
+      "99": 0.016532,
+      "104": 0.014846,
+      "107": 0.013299,
+      "64": 0.013292
+    },
+    "112": {
+      "124": 0.110579,
+      "92": 0.069176,
+      "79": 0.041142,
+      "127": 0.039841,
+      "110": 0.028242
+    },
+    "111": {
+      "24": 0.039661,
+      "34": 0.036603,
+      "20": 0.027803,
+      "132": 0.025665,
+      "3": 0.020662
+    },
+    "110": {
+      "125": 0.094367,
+      "101": 0.085342,
+      "96": 0.061252,
+      "132": 0.058401,
+      "129": 0.037973
+    },
+    "109": {
+      "98": 0.015603,
+      "99": 0.014616,
+      "123": 0.013058,
+      "104": 0.012669,
+      "81": 0.012123
+    },
+    "108": {
+      "76": 0.02761,
+      "123": 0.019911,
+      "53": 0.017883,
+      "103": 0.017569,
+      "66": 0.017524
+    },
+    "107": {
+      "48": 0.02681,
+      "124": 0.025811,
+      "110": 0.024709,
+      "99": 0.023232,
+      "19": 0.022348
+    },
+    "106": {
+      "127": 0.041594,
+      "76": 0.020514,
+      "48": 0.018566,
+      "110": 0.01856,
+      "102": 0.016768
+    },
+    "105": {
+      "48": 0.046678,
+      "87": 0.032613,
+      "73": 0.031506,
+      "94": 0.029421,
+      "117": 0.017975
+    },
+    "104": {
+      "45": 0.034849,
+      "64": 0.031547,
+      "16": 0.031238,
+      "3": 0.030393,
+      "24": 0.030089
+    },
+    "103": {
+      "132": 0.018785,
+      "87": 0.018026,
+      "108": 0.017569,
+      "11": 0.016926,
+      "127": 0.012627
+    },
+    "102": {
+      "20": 0.095162,
+      "92": 0.074202,
+      "46": 0.051217,
+      "110": 0.035354,
+      "127": 0.02834
+    },
+    "101": {
+      "110": 0.085342,
+      "124": 0.047634,
+      "99": 0.036154,
+      "79": 0.029189,
+      "25": 0.026335
+    },
+    "100": {
+      "65": 0.027891,
+      "73": 0.02769,
+      "112": 0.022578,
+      "94": 0.020482,
+      "20": 0.019369
+    },
+    "99": {
+      "84": 0.046104,
+      "101": 0.036154,
+      "34": 0.030946,
+      "8": 0.028519,
+      "51": 0.028243
+    },
+    "98": {
+      "3": 0.025488,
+      "76": 0.021173,
+      "74": 0.020725,
+      "24": 0.020064,
+      "73": 0.017123
+    },
+    "97": {
+      "114": 0.018514,
+      "11": 0.017037,
+      "1": 0.016458,
+      "117": 0.016177,
+      "7": 0.013612
+    },
+    "96": {
+      "110": 0.061252,
+      "34": 0.025651,
+      "84": 0.019455,
+      "14": 0.019172,
+      "87": 0.01812
+    },
+    "95": {
+      "11": 0.020862,
+      "80": 0.014315,
+      "76": 0.013793,
+      "62": 0.013126,
+      "101": 0.012458
+    },
+    "94": {
+      "53": 0.0367,
+      "13": 0.029551,
+      "105": 0.029421,
+      "79": 0.027374,
+      "18": 0.02396
+    },
+    "93": {
+      "11": 0.022525,
+      "102": 0.019602,
+      "107": 0.016659,
+      "85": 0.014485,
+      "38": 0.014076
+    },
+    "92": {
+      "102": 0.074202,
+      "112": 0.069176,
+      "48": 0.037165,
+      "55": 0.036021,
+      "24": 0.032556
+    },
+    "91": {
+      "42": 0.016694,
+      "88": 0.015339,
+      "111": 0.011529,
+      "94": 0.010561,
+      "92": 0.010497
+    },
+    "90": {
+      "20": 0.022324,
+      "34": 0.019937,
+      "14": 0.019119,
+      "70": 0.018452,
+      "35": 0.017031
+    },
+    "89": {
+      "55": 0.026606,
+      "88": 0.026285,
+      "112": 0.02544,
+      "118": 0.024152,
+      "94": 0.021789
+    },
+    "88": {
+      "124": 0.129564,
+      "127": 0.053513,
+      "118": 0.040909,
+      "128": 0.02986,
+      "9": 0.029518
+    },
+    "87": {
+      "48": 0.104453,
+      "79": 0.049245,
+      "121": 0.036684,
+      "14": 0.034487,
+      "105": 0.032613
+    },
+    "86": {
+      "50": 0.022824,
+      "42": 0.020789,
+      "45": 0.013526,
+      "113": 0.012481,
+      "93": 0.01198
+    },
+    "85": {
+      "84": 0.020211,
+      "69": 0.017885,
+      "20": 0.017783,
+      "27": 0.015901,
+      "61": 0.015667
+    },
+    "84": {
+      "99": 0.046104,
+      "85": 0.020211,
+      "96": 0.019455,
+      "66": 0.019163,
+      "41": 0.016376
+    },
+    "83": {
+      "24": 0.022392,
+      "123": 0.020892,
+      "27": 0.020662,
+      "59": 0.011794,
+      "2": 0.010958
+    },
+    "82": {
+      "48": 0.030377,
+      "102": 0.02173,
+      "55": 0.020711,
+      "112": 0.020582,
+      "11": 0.017382
+    },
+    "81": {
+      "11": 0.0228,
+      "51": 0.021499,
+      "48": 0.016126,
+      "69": 0.014427,
+      "114": 0.014018
+    },
+    "80": {
+      "22": 0.017551,
+      "132": 0.016333,
+      "101": 0.015619,
+      "95": 0.014315,
+      "106": 0.012981
+    },
+    "79": {
+      "87": 0.049245,
+      "112": 0.041142,
+      "73": 0.040076,
+      "101": 0.029189,
+      "94": 0.027374
+    },
+    "78": {
+      "14": 0.146859,
+      "24": 0.029949,
+      "3": 0.024381,
+      "73": 0.022427,
+      "88": 0.021354
+    },
+    "77": {
+      "120": 0.021285,
+      "69": 0.01874,
+      "45": 0.015911,
+      "3": 0.015876,
+      "24": 0.015838
+    },
+    "76": {
+      "118": 0.038866,
+      "31": 0.034567,
+      "29": 0.032518,
+      "17": 0.031964,
+      "108": 0.02761
+    },
+    "75": {
+      "102": 0.023053,
+      "112": 0.022126,
+      "55": 0.021135,
+      "14": 0.018275,
+      "124": 0.017511
+    },
+    "74": {
+      "98": 0.020725,
+      "3": 0.018007,
+      "24": 0.017742,
+      "19": 0.017713,
+      "14": 0.016753
+    },
+    "73": {
+      "121": 0.052778,
+      "53": 0.042368,
+      "79": 0.040076,
+      "12": 0.036129,
+      "43": 0.035062
+    },
+    "72": {
+      "63": 0.018686,
+      "96": 0.017927,
+      "119": 0.016164,
+      "102": 0.015832,
+      "20": 0.01406
+    },
+    "71": {
+      "34": 0.033504,
+      "121": 0.020594,
+      "79": 0.019189,
+      "132": 0.016508,
+      "100": 0.015343
+    },
+    "70": {
+      "3": 0.028706,
+      "24": 0.026387,
+      "16": 0.021386,
+      "90": 0.018452,
+      "64": 0.016664
+    },
+    "69": {
+      "20": 0.032385,
+      "35": 0.021631,
+      "104": 0.0197,
+      "77": 0.01874,
+      "85": 0.017885
+    },
+    "68": {
+      "32": 0.025096,
+      "110": 0.023134,
+      "102": 0.022865,
+      "121": 0.021176,
+      "17": 0.020058
+    },
+    "67": {
+      "55": 0.013204,
+      "58": 0.012738,
+      "48": 0.011803,
+      "22": 0.011569,
+      "112": 0.010946
+    },
+    "66": {
+      "35": 0.020434,
+      "39": 0.020283,
+      "84": 0.019163,
+      "108": 0.017524,
+      "104": 0.017446
+    },
+    "65": {
+      "100": 0.027891,
+      "73": 0.024745,
+      "124": 0.019043,
+      "122": 0.01369,
+      "109": 0.011831
+    },
+    "64": {
+      "104": 0.031547,
+      "87": 0.02592,
+      "9": 0.021172,
+      "6": 0.018059,
+      "70": 0.016664
+    },
+    "63": {
+      "36": 0.019184,
+      "72": 0.018686,
+      "88": 0.013509,
+      "33": 0.012048,
+      "1": 0.011776
+    },
+    "62": {
+      "40": 0.028037,
+      "118": 0.019885,
+      "76": 0.019298,
+      "46": 0.017782,
+      "68": 0.017362
+    },
+    "61": {
+      "54": 0.018274,
+      "2": 0.017011,
+      "85": 0.015667,
+      "104": 0.015518,
+      "42": 0.014893
+    },
+    "60": {
+      "20": 0.018699,
+      "10": 0.016204,
+      "73": 0.015435,
+      "39": 0.01419,
+      "94": 0.014062
+    },
+    "59": {
+      "55": 0.043344,
+      "48": 0.024104,
+      "11": 0.023592,
+      "101": 0.015728,
+      "51": 0.015555
+    },
+    "58": {
+      "118": 0.019084,
+      "55": 0.018635,
+      "107": 0.016788,
+      "47": 0.016289,
+      "64": 0.015329
+    },
+    "57": {
+      "42": 0.015925,
+      "24": 0.014119,
+      "48": 0.012373,
+      "69": 0.011041,
+      "119": 0.009209
+    },
+    "56": {
+      "101": 0.016981,
+      "14": 0.015366,
+      "19": 0.01456,
+      "129": 0.013004,
+      "61": 0.010496
+    },
+    "55": {
+      "9": 0.043747,
+      "59": 0.043344,
+      "117": 0.038153,
+      "92": 0.036021,
+      "99": 0.027085
+    },
+    "54": {
+      "20": 0.027033,
+      "14": 0.021494,
+      "34": 0.019444,
+      "107": 0.018582,
+      "61": 0.018274
+    },
+    "53": {
+      "73": 0.042368,
+      "94": 0.0367,
+      "39": 0.020876,
+      "108": 0.017883,
+      "101": 0.015795
+    },
+    "52": {
+      "110": 0.022754,
+      "99": 0.013698,
+      "108": 0.012198,
+      "111": 0.011941,
+      "42": 0.01151
+    },
+    "51": {
+      "9": 0.031868,
+      "99": 0.028243,
+      "104": 0.024554,
+      "81": 0.021499,
+      "111": 0.01883
+    },
+    "50": {
+      "119": 0.028357,
+      "42": 0.024205,
+      "86": 0.022824,
+      "33": 0.015974,
+      "84": 0.013103
+    },
+    "49": {
+      "24": 0.025872,
+      "3": 0.020942,
+      "11": 0.015375,
+      "69": 0.013275,
+      "90": 0.013069
+    },
+    "48": {
+      "87": 0.104453,
+      "121": 0.071569,
+      "105": 0.046678,
+      "110": 0.037633,
+      "92": 0.037165
+    },
+    "47": {
+      "55": 0.026966,
+      "99": 0.023453,
+      "58": 0.016289,
+      "45": 0.015117,
+      "16": 0.014591
+    },
+    "46": {
+      "102": 0.051217,
+      "124": 0.032783,
+      "125": 0.027908,
+      "88": 0.02521,
+      "112": 0.021224
+    },
+    "45": {
+      "104": 0.034849,
+      "2": 0.026888,
+      "35": 0.020326,
+      "20": 0.018288,
+      "41": 0.017915
+    },
+    "44": {
+      "73": 0.021933,
+      "3": 0.016347,
+      "22": 0.014128,
+      "120": 0.013614,
+      "106": 0.012736
+    },
+    "43": {
+      "73": 0.035062,
+      "55": 0.020718,
+      "89": 0.013354,
+      "99": 0.011578,
+      "128": 0.011371
+    },
+    "42": {
+      "50": 0.024205,
+      "129": 0.021756,
+      "86": 0.020789,
+      "33": 0.019102,
+      "110": 0.018195
+    },
+    "41": {
+      "55": 0.024508,
+      "112": 0.018796,
+      "45": 0.017915,
+      "84": 0.016376,
+      "96": 0.015463
+    },
+    "40": {
+      "73": 0.03205,
+      "62": 0.028037,
+      "128": 0.019674,
+      "23": 0.017235,
+      "118": 0.017006
+    },
+    "39": {
+      "121": 0.027631,
+      "18": 0.022175,
+      "53": 0.020876,
+      "66": 0.020283,
+      "79": 0.018898
+    },
+    "38": {
+      "42": 0.015791,
+      "93": 0.014076,
+      "27": 0.013221,
+      "24": 0.01306,
+      "39": 0.012541
+    },
+    "37": {
+      "14": 0.022012,
+      "11": 0.015149,
+      "114": 0.013306,
+      "27": 0.012826,
+      "72": 0.011819
+    },
+    "36": {
+      "119": 0.019985,
+      "63": 0.019184,
+      "25": 0.015355,
+      "39": 0.014322,
+      "28": 0.013669
+    },
+    "35": {
+      "69": 0.021631,
+      "66": 0.020434,
+      "45": 0.020326,
+      "3": 0.017951,
+      "90": 0.017031
+    },
+    "34": {
+      "111": 0.036603,
+      "71": 0.033504,
+      "99": 0.030946,
+      "87": 0.026283,
+      "96": 0.025651
+    },
+    "33": {
+      "124": 0.021666,
+      "42": 0.019102,
+      "121": 0.018924,
+      "5": 0.01822,
+      "50": 0.015974
+    },
+    "32": {
+      "68": 0.025096,
+      "28": 0.019039,
+      "45": 0.017162,
+      "3": 0.016038,
+      "94": 0.015916
+    },
+    "31": {
+      "76": 0.034567,
+      "73": 0.030865,
+      "88": 0.017881,
+      "118": 0.0164,
+      "106": 0.016099
+    },
+    "30": {
+      "112": 0.023129,
+      "46": 0.0157,
+      "124": 0.015551,
+      "53": 0.013816,
+      "79": 0.013398
+    },
+    "29": {
+      "76": 0.032518,
+      "88": 0.01984,
+      "124": 0.018866,
+      "48": 0.015969,
+      "14": 0.015776
+    },
+    "28": {
+      "32": 0.019039,
+      "24": 0.015642,
+      "41": 0.014984,
+      "36": 0.013669,
+      "64": 0.01208
+    },
+    "27": {
+      "123": 0.02585,
+      "83": 0.020662,
+      "104": 0.018731,
+      "2": 0.018263,
+      "113": 0.016633
+    },
+    "26": {
+      "19": 0.01856,
+      "78": 0.016675,
+      "9": 0.016017,
+      "6": 0.015785,
+      "70": 0.015251
+    },
+    "25": {
+      "125": 0.054149,
+      "110": 0.03705,
+      "101": 0.026335,
+      "22": 0.01782,
+      "42": 0.015861
+    },
+    "24": {
+      "111": 0.039661,
+      "20": 0.033554,
+      "92": 0.032556,
+      "104": 0.030089,
+      "78": 0.029949
+    },
+    "23": {
+      "110": 0.037393,
+      "117": 0.018506,
+      "87": 0.017769,
+      "40": 0.017235,
+      "73": 0.014886
+    },
+    "22": {
+      "124": 0.033291,
+      "87": 0.026614,
+      "125": 0.020775,
+      "101": 0.019178,
+      "48": 0.018706
+    },
+    "21": {
+      "111": 0.01271,
+      "76": 0.011959,
+      "59": 0.010108,
+      "78": 0.009552,
+      "86": 0.009381
+    },
+    "20": {
+      "102": 0.095162,
+      "24": 0.033554,
+      "69": 0.032385,
+      "11": 0.029219,
+      "3": 0.028701
+    },
+    "19": {
+      "3": 0.022623,
+      "107": 0.022348,
+      "24": 0.019356,
+      "26": 0.01856,
+      "74": 0.017713
+    },
+    "18": {
+      "94": 0.02396,
+      "39": 0.022175,
+      "73": 0.021576,
+      "20": 0.014856,
+      "14": 0.014752
+    },
+    "17": {
+      "76": 0.031964,
+      "118": 0.023172,
+      "68": 0.020058,
+      "20": 0.019811,
+      "89": 0.018558
+    },
+    "16": {
+      "104": 0.031238,
+      "70": 0.021386,
+      "20": 0.020078,
+      "78": 0.018263,
+      "6": 0.016309
+    },
+    "15": {
+      "111": 0.015914,
+      "39": 0.014681,
+      "89": 0.012935,
+      "69": 0.012058,
+      "42": 0.011681
+    },
+    "14": {
+      "78": 0.146859,
+      "9": 0.046511,
+      "87": 0.034487,
+      "99": 0.027132,
+      "3": 0.025925
+    },
+    "13": {
+      "73": 0.031441,
+      "94": 0.029551,
+      "39": 0.016055,
+      "62": 0.015796,
+      "132": 0.013909
+    },
+    "12": {
+      "124": 0.048223,
+      "73": 0.036129,
+      "112": 0.018538,
+      "75": 0.017107,
+      "111": 0.015843
+    },
+    "11": {
+      "20": 0.029219,
+      "120": 0.025163,
+      "59": 0.023592,
+      "81": 0.0228,
+      "93": 0.022525
+    },
+    "10": {
+      "24": 0.019209,
+      "11": 0.016512,
+      "60": 0.016204,
+      "116": 0.015837,
+      "111": 0.01532
+    },
+    "9": {
+      "14": 0.046511,
+      "55": 0.043747,
+      "51": 0.031868,
+      "88": 0.029518,
+      "124": 0.027704
+    },
+    "8": {
+      "99": 0.028519,
+      "72": 0.012636,
+      "12": 0.012513,
+      "129": 0.01248,
+      "74": 0.010308
+    },
+    "7": {
+      "6": 0.017927,
+      "20": 0.01648,
+      "62": 0.016125,
+      "118": 0.015216,
+      "99": 0.014606
+    },
+    "6": {
+      "64": 0.018059,
+      "7": 0.017927,
+      "16": 0.016309,
+      "26": 0.015785,
+      "3": 0.015707
+    },
+    "5": {
+      "33": 0.01822,
+      "42": 0.016133,
+      "39": 0.015148,
+      "45": 0.012534,
+      "2": 0.012497
+    },
+    "4": {
+      "110": 0.027241,
+      "55": 0.021584,
+      "51": 0.015227,
+      "76": 0.014374,
+      "48": 0.012958
+    },
+    "3": {
+      "104": 0.030393,
+      "70": 0.028706,
+      "20": 0.028701,
+      "14": 0.025925,
+      "98": 0.025488
+    },
+    "2": {
+      "45": 0.026888,
+      "123": 0.020063,
+      "27": 0.018263,
+      "61": 0.017011,
+      "104": 0.016836
+    },
+    "1": {
+      "73": 0.024595,
+      "104": 0.021171,
+      "97": 0.016458,
+      "17": 0.01452,
+      "9": 0.012639
+    }
+  },
+  "counters": {
+    "132": {
+      "93": 0.063707,
+      "98": 0.045577,
+      "27": 0.039056,
+      "87": 0.038101,
+      "125": 0.037733
+    },
+    "131": {
+      "34": 0.037595,
+      "43": 0.024279,
+      "68": 0.02096,
+      "76": 0.020933,
+      "99": 0.018394
+    },
+    "130": {
+      "97": 0.034493,
+      "24": 0.026787,
+      "51": 0.024996,
+      "105": 0.022114,
+      "25": 0.021506
+    },
+    "129": {
+      "20": 0.033771,
+      "24": 0.028779,
+      "6": 0.021415,
+      "51": 0.01939,
+      "39": 0.013453
+    },
+    "128": {
+      "76": 0.025521,
+      "20": 0.022681,
+      "17": 0.02002,
+      "51": 0.01915,
+      "15": 0.016003
+    },
+    "127": {
+      "24": 0.034757,
+      "88": 0.033779,
+      "64": 0.031355,
+      "120": 0.030945,
+      "84": 0.029255
+    },
+    "126": {
+      "27": 0.024281,
+      "69": 0.019893,
+      "83": 0.019367,
+      "86": 0.017375,
+      "24": 0.0168
+    },
+    "125": {
+      "20": 0.062035,
+      "39": 0.030914,
+      "78": 0.027162,
+      "67": 0.027146,
+      "104": 0.026812
+    },
+    "124": {
+      "102": 0.063599,
+      "76": 0.049394,
+      "20": 0.048818,
+      "51": 0.043964,
+      "25": 0.038356
+    },
+    "123": {
+      "72": 0.038625,
+      "2": 0.038566,
+      "4": 0.027508,
+      "37": 0.024598,
+      "78": 0.02248
+    },
+    "122": {
+      "34": 0.040419,
+      "107": 0.039201,
+      "48": 0.033887,
+      "94": 0.031553,
+      "11": 0.028877
+    },
+    "121": {
+      "34": 0.061344,
+      "112": 0.035034,
+      "33": 0.029149,
+      "14": 0.028279,
+      "60": 0.02783
+    },
+    "120": {
+      "123": 0.026511,
+      "125": 0.026294,
+      "78": 0.02488,
+      "83": 0.021817,
+      "81": 0.021004
+    },
+    "119": {
+      "48": 0.032494,
+      "76": 0.029067,
+      "57": 0.022008,
+      "83": 0.022005,
+      "132": 0.021121
+    },
+    "118": {
+      "87": 0.040325,
+      "27": 0.038608,
+      "96": 0.032203,
+      "80": 0.029377,
+      "20": 0.028076
+    },
+    "117": {
+      "104": 0.037898,
+      "68": 0.028155,
+      "7": 0.027619,
+      "46": 0.026828,
+      "45": 0.025863
+    },
+    "116": {
+      "76": 0.039047,
+      "48": 0.026899,
+      "81": 0.02454,
+      "110": 0.024477,
+      "27": 0.019004
+    },
+    "115": {
+      "110": 0.029507,
+      "70": 0.021647,
+      "102": 0.019605,
+      "93": 0.018317,
+      "96": 0.01737
+    },
+    "114": {
+      "110": 0.044606,
+      "20": 0.036091,
+      "102": 0.034394,
+      "118": 0.033246,
+      "67": 0.031387
+    },
+    "113": {
+      "34": 0.040045,
+      "48": 0.029707,
+      "76": 0.028441,
+      "124": 0.027445,
+      "23": 0.024664
+    },
+    "112": {
+      "4": 0.038684,
+      "132": 0.030798,
+      "76": 0.030176,
+      "84": 0.028427,
+      "2": 0.028356
+    },
+    "111": {
+      "89": 0.035801,
+      "65": 0.0326,
+      "90": 0.032131,
+      "4": 0.027046,
+      "108": 0.026114
+    },
+    "110": {
+      "20": 0.045056,
+      "92": 0.042714,
+      "93": 0.04009,
+      "83": 0.039759,
+      "124": 0.038041
+    },
+    "109": {
+      "132": 0.047277,
+      "123": 0.032719,
+      "65": 0.027451,
+      "73": 0.027449,
+      "88": 0.026397
+    },
+    "108": {
+      "20": 0.04083,
+      "104": 0.036351,
+      "124": 0.030487,
+      "3": 0.027308,
+      "87": 0.025864
+    },
+    "107": {
+      "27": 0.04906,
+      "104": 0.039566,
+      "124": 0.033844,
+      "2": 0.029079,
+      "99": 0.02868
+    },
+    "106": {
+      "89": 0.056944,
+      "22": 0.045291,
+      "110": 0.038196,
+      "102": 0.034679,
+      "73": 0.034041
+    },
+    "105": {
+      "34": 0.044079,
+      "87": 0.03715,
+      "60": 0.035481,
+      "96": 0.030086,
+      "19": 0.026577
+    },
+    "104": {
+      "109": 0.046757,
+      "32": 0.038967,
+      "54": 0.038303,
+      "66": 0.03382,
+      "61": 0.032707
+    },
+    "103": {
+      "24": 0.03399,
+      "83": 0.027728,
+      "8": 0.027674,
+      "123": 0.019155,
+      "69": 0.01621
+    },
+    "102": {
+      "24": 0.053664,
+      "83": 0.044732,
+      "2": 0.042063,
+      "86": 0.035524,
+      "28": 0.03539
+    },
+    "101": {
+      "20": 0.083843,
+      "2": 0.081438,
+      "99": 0.038191,
+      "28": 0.032465,
+      "19": 0.029189
+    },
+    "100": {
+      "8": 0.035527,
+      "24": 0.029655,
+      "70": 0.028262,
+      "45": 0.02683,
+      "118": 0.026759
+    },
+    "99": {
+      "15": 0.055675,
+      "100": 0.045057,
+      "7": 0.039059,
+      "3": 0.037014,
+      "46": 0.036597
+    },
+    "98": {
+      "66": 0.029778,
+      "113": 0.025607,
+      "39": 0.024858,
+      "119": 0.022257,
+      "20": 0.020157
+    },
+    "97": {
+      "28": 0.0486,
+      "83": 0.037127,
+      "90": 0.034705,
+      "93": 0.031881,
+      "32": 0.030385
+    },
+    "96": {
+      "101": 0.04114,
+      "76": 0.036749,
+      "34": 0.031551,
+      "102": 0.030524,
+      "94": 0.027966
+    },
+    "95": {
+      "104": 0.030473,
+      "81": 0.023283,
+      "20": 0.021202,
+      "92": 0.018827,
+      "87": 0.018155
+    },
+    "94": {
+      "102": 0.041247,
+      "106": 0.032279,
+      "88": 0.030295,
+      "20": 0.027445,
+      "89": 0.027254
+    },
+    "93": {
+      "94": 0.051533,
+      "18": 0.044111,
+      "20": 0.042134,
+      "15": 0.036299,
+      "34": 0.033706
+    },
+    "92": {
+      "94": 0.037309,
+      "104": 0.031849,
+      "124": 0.030868,
+      "32": 0.028646,
+      "10": 0.019067
+    },
+    "91": {
+      "20": 0.030381,
+      "76": 0.023338,
+      "11": 0.020048,
+      "108": 0.017701,
+      "49": 0.015925
+    },
+    "90": {
+      "109": 0.028309,
+      "112": 0.025115,
+      "55": 0.023868,
+      "14": 0.023273,
+      "132": 0.022532
+    },
+    "89": {
+      "113": 0.043207,
+      "93": 0.038583,
+      "121": 0.03846,
+      "104": 0.035957,
+      "69": 0.029937
+    },
+    "88": {
+      "95": 0.046657,
+      "100": 0.037767,
+      "57": 0.037485,
+      "104": 0.030949,
+      "118": 0.030841
+    },
+    "87": {
+      "130": 0.037022,
+      "127": 0.036608,
+      "99": 0.035966,
+      "112": 0.0273,
+      "106": 0.026426
+    },
+    "86": {
+      "32": 0.026875,
+      "28": 0.023575,
+      "85": 0.021397,
+      "60": 0.020313,
+      "4": 0.019498
+    },
+    "85": {
+      "59": 0.028385,
+      "81": 0.026713,
+      "48": 0.024911,
+      "31": 0.021631,
+      "127": 0.021535
+    },
+    "84": {
+      "69": 0.041999,
+      "83": 0.039433,
+      "104": 0.03387,
+      "119": 0.030013,
+      "28": 0.029017
+    },
+    "83": {
+      "99": 0.084313,
+      "82": 0.051861,
+      "87": 0.04933,
+      "106": 0.041653,
+      "41": 0.034854
+    },
+    "82": {
+      "106": 0.033969,
+      "20": 0.032055,
+      "78": 0.027756,
+      "45": 0.026725,
+      "94": 0.025608
+    },
+    "81": {
+      "20": 0.065096,
+      "45": 0.039228,
+      "37": 0.037184,
+      "106": 0.033267,
+      "64": 0.031544
+    },
+    "80": {
+      "40": 0.023957,
+      "116": 0.022815,
+      "72": 0.021246,
+      "81": 0.019909,
+      "101": 0.019773
+    },
+    "79": {
+      "8": 0.041608,
+      "105": 0.025406,
+      "87": 0.025071,
+      "60": 0.021216,
+      "121": 0.020536
+    },
+    "78": {
+      "100": 0.030421,
+      "90": 0.029416,
+      "15": 0.028768,
+      "63": 0.027738,
+      "24": 0.0268
+    },
+    "77": {
+      "17": 0.026346,
+      "27": 0.023091,
+      "113": 0.017925,
+      "94": 0.01701,
+      "64": 0.013364
+    },
+    "76": {
+      "104": 0.06522,
+      "27": 0.04082,
+      "94": 0.039366,
+      "99": 0.032282,
+      "84": 0.030163
+    },
+    "75": {
+      "20": 0.049476,
+      "121": 0.025948,
+      "93": 0.021833,
+      "32": 0.020616,
+      "69": 0.019313
+    },
+    "74": {
+      "22": 0.036686,
+      "58": 0.03377,
+      "106": 0.029899,
+      "110": 0.02986,
+      "7": 0.02415
+    },
+    "73": {
+      "20": 0.042087,
+      "25": 0.031349,
+      "37": 0.026453,
+      "126": 0.024937,
+      "43": 0.024624
+    },
+    "72": {
+      "46": 0.028739,
+      "76": 0.028574,
+      "127": 0.025724,
+      "88": 0.024905,
+      "4": 0.023875
+    },
+    "71": {
+      "27": 0.026367,
+      "69": 0.024089,
+      "2": 0.023325,
+      "49": 0.022457,
+      "93": 0.022105
+    },
+    "70": {
+      "1": 0.033367,
+      "130": 0.025294,
+      "50": 0.022898,
+      "90": 0.022654,
+      "32": 0.021125
+    },
+    "69": {
+      "20": 0.042197,
+      "2": 0.041263,
+      "48": 0.035058,
+      "121": 0.028636,
+      "11": 0.027934
+    },
+    "68": {
+      "89": 0.040159,
+      "8": 0.033101,
+      "69": 0.032378,
+      "2": 0.029664,
+      "24": 0.029514
+    },
+    "67": {
+      "20": 0.037059,
+      "15": 0.02972,
+      "3": 0.02948,
+      "70": 0.025766,
+      "24": 0.023394
+    },
+    "66": {
+      "14": 0.027965,
+      "46": 0.027357,
+      "34": 0.026406,
+      "114": 0.021909,
+      "94": 0.021836
+    },
+    "65": {
+      "2": 0.033196,
+      "20": 0.033032,
+      "61": 0.026242,
+      "84": 0.021471,
+      "121": 0.020292
+    },
+    "64": {
+      "27": 0.0446,
+      "87": 0.029413,
+      "41": 0.028273,
+      "110": 0.025827,
+      "118": 0.025109
+    },
+    "63": {
+      "96": 0.023121,
+      "97": 0.018544,
+      "105": 0.017677,
+      "121": 0.015138,
+      "83": 0.015125
+    },
+    "62": {
+      "102": 0.035934,
+      "20": 0.031731,
+      "39": 0.030322,
+      "86": 0.029286,
+      "88": 0.025968
+    },
+    "61": {
+      "48": 0.031898,
+      "108": 0.025124,
+      "2": 0.019932,
+      "28": 0.01701,
+      "132": 0.016875
+    },
+    "60": {
+      "94": 0.031654,
+      "9": 0.02599,
+      "124": 0.024847,
+      "78": 0.02338,
+      "128": 0.020846
+    },
+    "59": {
+      "45": 0.0389,
+      "43": 0.032485,
+      "130": 0.028993,
+      "39": 0.025759,
+      "18": 0.024238
+    },
+    "58": {
+      "15": 0.023386,
+      "3": 0.020345,
+      "131": 0.019607,
+      "78": 0.018668,
+      "107": 0.018306
+    },
+    "57": {
+      "99": 0.033117,
+      "117": 0.03237,
+      "2": 0.029417,
+      "4": 0.028003,
+      "72": 0.02716
+    },
+    "56": {
+      "109": 0.02501,
+      "126": 0.021618,
+      "57": 0.021357,
+      "83": 0.018041,
+      "23": 0.017392
+    },
+    "55": {
+      "132": 0.048538,
+      "4": 0.04498,
+      "2": 0.035706,
+      "76": 0.032236,
+      "47": 0.031063
+    },
+    "54": {
+      "88": 0.02486,
+      "12": 0.024186,
+      "51": 0.022472,
+      "110": 0.021748,
+      "122": 0.021328
+    },
+    "53": {
+      "65": 0.043879,
+      "132": 0.037325,
+      "70": 0.028696,
+      "41": 0.02657,
+      "122": 0.024211
+    },
+    "52": {
+      "20": 0.037122,
+      "101": 0.01741,
+      "57": 0.017257,
+      "114": 0.016496,
+      "60": 0.015137
+    },
+    "51": {
+      "69": 0.040562,
+      "83": 0.036911,
+      "122": 0.02683,
+      "57": 0.025751,
+      "11": 0.023352
+    },
+    "50": {
+      "48": 0.05563,
+      "120": 0.029107,
+      "113": 0.025565,
+      "110": 0.02349,
+      "20": 0.022966
+    },
+    "49": {
+      "99": 0.031209,
+      "113": 0.031149,
+      "124": 0.028412,
+      "18": 0.027812,
+      "32": 0.025167
+    },
+    "48": {
+      "4": 0.033809,
+      "125": 0.033489,
+      "57": 0.032678,
+      "40": 0.029864,
+      "8": 0.028912
+    },
+    "47": {
+      "124": 0.031687,
+      "28": 0.02968,
+      "87": 0.028637,
+      "93": 0.028008,
+      "83": 0.021267
+    },
+    "46": {
+      "132": 0.057023,
+      "24": 0.032013,
+      "118": 0.028862,
+      "76": 0.028453,
+      "109": 0.028316
+    },
+    "45": {
+      "88": 0.042944,
+      "3": 0.029591,
+      "48": 0.029533,
+      "74": 0.026151,
+      "40": 0.022361
+    },
+    "44": {
+      "48": 0.01923,
+      "100": 0.019011,
+      "45": 0.017955,
+      "15": 0.017156,
+      "78": 0.016959
+    },
+    "43": {
+      "89": 0.0351,
+      "97": 0.031213,
+      "105": 0.024326,
+      "132": 0.024191,
+      "27": 0.024138
+    },
+    "42": {
+      "69": 0.025926,
+      "23": 0.020796,
+      "118": 0.020606,
+      "57": 0.018896,
+      "126": 0.017576
+    },
+    "41": {
+      "1": 0.027906,
+      "46": 0.024319,
+      "36": 0.02312,
+      "16": 0.02151,
+      "22": 0.019773
+    },
+    "40": {
+      "4": 0.044957,
+      "81": 0.029657,
+      "59": 0.026179,
+      "67": 0.025972,
+      "99": 0.025905
+    },
+    "39": {
+      "56": 0.023285,
+      "18": 0.022523,
+      "24": 0.021325,
+      "90": 0.018994,
+      "15": 0.018887
+    },
+    "38": {
+      "124": 0.03089,
+      "104": 0.027372,
+      "20": 0.018359,
+      "46": 0.017702,
+      "106": 0.015328
+    },
+    "37": {
+      "94": 0.030689,
+      "11": 0.027488,
+      "45": 0.027091,
+      "96": 0.027072,
+      "93": 0.024879
+    },
+    "36": {
+      "20": 0.037041,
+      "88": 0.029216,
+      "124": 0.026127,
+      "46": 0.025054,
+      "12": 0.024619
+    },
+    "35": {
+      "122": 0.031799,
+      "79": 0.030202,
+      "51": 0.028683,
+      "3": 0.025872,
+      "119": 0.025627
+    },
+    "34": {
+      "33": 0.040584,
+      "76": 0.036709,
+      "48": 0.034761,
+      "2": 0.031685,
+      "88": 0.031557
+    },
+    "33": {
+      "24": 0.052413,
+      "132": 0.050269,
+      "118": 0.047665,
+      "89": 0.037,
+      "21": 0.027768
+    },
+    "32": {
+      "18": 0.033092,
+      "15": 0.02545,
+      "16": 0.02443,
+      "110": 0.022465,
+      "24": 0.021181
+    },
+    "31": {
+      "104": 0.057081,
+      "118": 0.036506,
+      "17": 0.03158,
+      "69": 0.029664,
+      "89": 0.026136
+    },
+    "30": {
+      "2": 0.020117,
+      "83": 0.01989,
+      "72": 0.019855,
+      "28": 0.018663,
+      "78": 0.017162
+    },
+    "29": {
+      "104": 0.049416,
+      "27": 0.041937,
+      "45": 0.039298,
+      "88": 0.030373,
+      "50": 0.02749
+    },
+    "28": {
+      "99": 0.031855,
+      "31": 0.027538,
+      "3": 0.027416,
+      "46": 0.026788,
+      "106": 0.025209
+    },
+    "27": {
+      "88": 0.054682,
+      "123": 0.044036,
+      "54": 0.040829,
+      "69": 0.037897,
+      "94": 0.037595
+    },
+    "26": {
+      "17": 0.027578,
+      "83": 0.024824,
+      "24": 0.020399,
+      "64": 0.018966,
+      "69": 0.018083
+    },
+    "25": {
+      "20": 0.04471,
+      "8": 0.02246,
+      "28": 0.019667,
+      "64": 0.019254,
+      "69": 0.018154
+    },
+    "24": {
+      "69": 0.070827,
+      "84": 0.046307,
+      "20": 0.042701,
+      "23": 0.04237,
+      "74": 0.033131
+    },
+    "23": {
+      "99": 0.051827,
+      "20": 0.039456,
+      "106": 0.032383,
+      "29": 0.031349,
+      "117": 0.02421
+    },
+    "22": {
+      "101": 0.030129,
+      "20": 0.025652,
+      "25": 0.021502,
+      "48": 0.021026,
+      "67": 0.020938
+    },
+    "21": {
+      "101": 0.029267,
+      "125": 0.027072,
+      "89": 0.026104,
+      "109": 0.023171,
+      "119": 0.023
+    },
+    "20": {
+      "33": 0.087936,
+      "61": 0.060674,
+      "102": 0.05819,
+      "11": 0.043525,
+      "111": 0.039937
+    },
+    "19": {
+      "88": 0.024957,
+      "20": 0.021388,
+      "90": 0.021174,
+      "45": 0.020649,
+      "33": 0.019248
+    },
+    "18": {
+      "132": 0.035073,
+      "12": 0.024405,
+      "125": 0.024091,
+      "88": 0.024062,
+      "111": 0.023772
+    },
+    "17": {
+      "101": 0.04538,
+      "104": 0.042497,
+      "79": 0.038412,
+      "93": 0.031675,
+      "2": 0.026627
+    },
+    "16": {
+      "40": 0.02519,
+      "83": 0.023835,
+      "55": 0.022465,
+      "102": 0.02158,
+      "17": 0.021246
+    },
+    "15": {
+      "118": 0.033595,
+      "24": 0.031813,
+      "112": 0.026673,
+      "43": 0.025291,
+      "17": 0.023894
+    },
+    "14": {
+      "88": 0.038105,
+      "132": 0.034346,
+      "24": 0.034079,
+      "78": 0.034048,
+      "57": 0.032017
+    },
+    "13": {
+      "20": 0.046521,
+      "8": 0.031498,
+      "122": 0.022496,
+      "132": 0.021636,
+      "87": 0.019884
+    },
+    "12": {
+      "89": 0.038261,
+      "84": 0.038236,
+      "17": 0.037453,
+      "62": 0.036918,
+      "65": 0.033701
+    },
+    "11": {
+      "76": 0.044156,
+      "124": 0.039003,
+      "78": 0.030198,
+      "106": 0.029071,
+      "87": 0.025898
+    },
+    "10": {
+      "48": 0.044334,
+      "17": 0.028921,
+      "55": 0.027963,
+      "112": 0.024643,
+      "34": 0.018321
+    },
+    "9": {
+      "93": 0.020976,
+      "5": 0.020913,
+      "17": 0.019054,
+      "45": 0.018241,
+      "100": 0.01762
+    },
+    "8": {
+      "71": 0.031475,
+      "51": 0.028383,
+      "24": 0.027864,
+      "27": 0.027695,
+      "90": 0.027647
+    },
+    "7": {
+      "27": 0.039962,
+      "102": 0.034297,
+      "24": 0.026778,
+      "132": 0.024056,
+      "3": 0.021428
+    },
+    "6": {
+      "34": 0.027648,
+      "16": 0.026679,
+      "15": 0.022193,
+      "53": 0.019967,
+      "7": 0.01861
+    },
+    "5": {
+      "46": 0.030616,
+      "114": 0.019956,
+      "22": 0.019,
+      "20": 0.016681,
+      "34": 0.015476
+    },
+    "4": {
+      "104": 0.043565,
+      "93": 0.038476,
+      "9": 0.036795,
+      "32": 0.034244,
+      "6": 0.03418
+    },
+    "3": {
+      "122": 0.036877,
+      "24": 0.035384,
+      "84": 0.030874,
+      "21": 0.030523,
+      "132": 0.028453
+    },
+    "2": {
+      "99": 0.034888,
+      "106": 0.032356,
+      "127": 0.03222,
+      "15": 0.02729,
+      "53": 0.025888
+    },
+    "1": {
+      "3": 0.028963,
+      "88": 0.026145,
+      "130": 0.026076,
+      "73": 0.025043,
+      "31": 0.022843
+    }
+  },
+  "updated_at": "2026-06-16T09:50:52Z"
+}
